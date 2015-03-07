@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 void rotate(int nums[], int n, int k) {
-    int i, j;
+    int i, j, c;
     i = j = 0;
     int x = nums[i];
     int t;
-    for(int c = 0; c < n; c++)
+    for(c = 0; c < n; c++)
     {
         i = (i + k) % n;
         t = nums[i];
@@ -20,7 +20,8 @@ void rotate(int nums[], int n, int k) {
 }
 
 void print(int nums[], int n) {
-    for (int i = 0; i < n; i++) {
+    int i;
+    for (i = 0; i < n; i++) {
         printf("%d ", nums[i]);
     }
     printf("\n");

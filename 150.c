@@ -32,7 +32,8 @@ int pop(struct Node** top_pt)
 
 int evalRPN(char *tokens[], int n) {
     struct Node *stack = NULL;
-    for (int i = 0; i < n; i++)
+    int i;
+    for (i = 0; i < n; i++)
     {
         if (strcmp(tokens[i], "+") == 0) {
             int r = pop(&stack);
@@ -77,3 +78,4 @@ int main()
     char *tokens[] = {"3","-4","+"};
     printf("%d\n", evalRPN(tokens, sizeof(tokens)/ sizeof(tokens[0])));
 }
+

@@ -36,7 +36,8 @@ int pop(struct Node** top_pt)
 
 bool isValid(char *s) {
     struct Node *stack = NULL;
-    for (int i = 0; i < strlen(s); i++) {
+    int i;
+    for (i = 0; i < strlen(s); i++) {
         if (s[i] == '(' || s[i] == '[' || s[i] == '{') {
             push(&stack, s[i]);
         }
