@@ -36,7 +36,7 @@ int reverse(int x) {
     if (check_add(ret, x, &ret)) return 0;
 
     if (sign) 
-        if (check(-ret, &ret)) return 0;;
+        if (check(-ret, &ret)) return 0;
     return ret;
 }
 
