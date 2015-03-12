@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// O(logn)
+/* O(logn) */
 /*
 int hammingWeight(uint32_t n) {
     int ret = 0;
@@ -9,10 +9,11 @@ int hammingWeight(uint32_t n) {
         n >>= 1;
     }
     return ret;
-} 
+}
 */
 
-// O(m)
+/* O(m) */
+/*
 int hammingWeight(uint32_t n) {
     int ret = 0;
     while (n) {
@@ -20,6 +21,35 @@ int hammingWeight(uint32_t n) {
         ret ++;
     }
     return ret;
+} 
+*/
+
+void print_bits(uint32_t n) {
+    int i = 32;
+    while(i--){
+        if ((n >> i) & 1)
+            printf("1");
+        else
+            printf("0");
+    }
+    printf("\n");
+}
+
+/* O(1) */
+int hammingWeight(uint32_t n) {
+    uint32_t t = n;
+    /* add up odd and even bits  1 bit*/
+    t = ((t & 0xAAAAAAAA) >> 1) + (t & 0x55555555);
+    /* 2 bits */
+    t = ((t & 0xCCCCCCCC) >> 2) + (t & 0x33333333);
+    /* 4 bits */
+    t = ((t & 0xF0F0F0F0) >> 4) + (t & 0x0F0F0F0F);
+    /* 8 bits */
+    t = ((t & 0xFF00FF00) >> 8) + (t & 0x00FF00FF);
+    /* 16 bits */
+    t = ((t & 0xFFFF0000) >> 16) + (t & 0x0000FFFF);
+    
+    return t;
 }
 
 int main() {
