@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* 
 int maxSubArray(int A[], int n) {
     int i;
     int max, sum;
@@ -13,7 +14,24 @@ int maxSubArray(int A[], int n) {
             sum = 0;
     }
     return max;
+} 
+*/
+
+int maxSubArray(int A[], int n) {
+    int i;
+    int max, local;
+    max = A[0];
+    local = 0;
+    for (i = 0; i < n; i++) {
+        local += A[i];
+        if (local < A[i])
+            local = A[i];
+        if (local > max)
+            max = local;
+    }
+    return max;
 }
+
 
 int main() {
     int A[] = { -3, -2, 0, -1};
