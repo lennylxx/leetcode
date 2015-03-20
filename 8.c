@@ -1,29 +1,8 @@
 #include <stdio.h>
 #include <stdint.h>
 
-int add(int a, int b) {
-    int64_t ret = (int64_t)a + (int64_t)b;
-    if (ret > INT32_MAX) ret = INT32_MAX;
-    if (ret < INT32_MIN) ret = INT32_MIN;
-    return (int)ret;
-}
-
-int minus(int a, int b) {
-    int64_t ret = (int64_t)a - (int64_t)b;
-    if (ret > INT32_MAX) ret = INT32_MAX;
-    if (ret < INT32_MIN) ret = INT32_MIN;
-    return (int)ret;
-}
-
-int mul(int a, int b) {
-    int64_t ret = (int64_t)a * (int64_t)b;
-    if (ret > INT32_MAX) ret = INT32_MAX;
-    if (ret < INT32_MIN) ret = INT32_MIN;
-    return (int)ret;
-}
-
 int myAtoi(char *str) {
-    int ret = 0;
+    int64_t ret = 0;
     int sign = 1;
     char *p = str;
     /* ignore white spaces */
@@ -39,25 +18,17 @@ int myAtoi(char *str) {
     }
 
     while (*p >= '0' && *p <= '9') {
-        if (sign && ret > 0) {
-            ret = mul(ret, sign);
-            sign = 0;
-        }
-        ret = mul(ret, 10);
-        if (ret >= 0)
-        ret = add(ret, (*p - '0'));
-        else
-        ret = minus(ret, (*p - '0'));
-        //printf("%d\n", ret);
+        ret = ret * 10 + (*p - '0');
+        if (ret - 1 > INT32_MAX) ret = (int64_t)INT32_MAX + 1;
+        //printf("%ld\n", ret);
         p++;
     }
 
-    if (sign && ret > 0) {
-        ret = mul(ret, sign);
-        sign = 0;
-    }
+    ret *= sign;
+    if (ret > INT32_MAX) ret = INT32_MAX;
+    if (ret < INT32_MIN) ret = INT32_MIN;
     
-    return ret;
+    return (int)ret;
 }
 
 int main() {
@@ -72,7 +43,8 @@ int main() {
     char *s9 = "-2147483649";
     char *s10 = "-1";
     char *s11 = "+-2";
-    printf("%d\n", myAtoi(s9));
+    char *s12 = "9223372036854775809";
+    printf("%d\n", myAtoi(s12));
     return 0;
 }
 
