@@ -24,7 +24,7 @@ int myAtoi(char *str) {
         p++;
     }
 
-    ret *= sign;
+    if (sign == -1) ret = -ret;
     if (ret > INT32_MAX) ret = INT32_MAX;
     if (ret < INT32_MIN) ret = INT32_MIN;
     
