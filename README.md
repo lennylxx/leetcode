@@ -9,43 +9,43 @@ as tree, stack and hash table.
 Parts of the problems don't provide C interface for solution, so I accomplished
 them with C++ Language.
 
-|     | Dynamic Programming                   | Solution       |
-| --- | ------------------------------------- | -------------- |
-| 10  | [Regular Expression Matching]         |                |
-| 32  | [Longest Valid Parentheses]           |                |
-| 44  | [Wildcard Matching]                   |                |
-| 53  | [Maximum Subarray]                    | [C](53.c)      |
-| 62  | [Unique Paths]                        | [C](62.c)      |
-| 63  | [Unique Paths II]                     | [C](63.c)      |
-| 64  | [Minimum Path Sum]                    | [C](64.c)      |
-| 70  | [Climbing Stairs]                     | [C](70.c)      |
-| 72  | [Edit Distance]                       |                |
-| 85  | [Maximal Rectangle]                   |                |
-| 87  | [Scramble String]                     |                |
-| 91  | [Decode Ways]                         | [C](91.c)      |
-| 96  | [Unique Binary Search Trees]          | [C](96.c)      |
-| 97  | [Interleaving String]                 |                |
-| 115 | [Distinct Subsequences]               |                |
-| 120 | [Triangle]                            | [C](120.c)     |
-| 121 | [Best Time to Buy and Sell Stock]     | [C](121.c)     |
-| 123 | [Best Time to Buy and Sell Stock III] |                |
-| 132 | [Palindrome Partitioning II]          |                |
-| 139 | [Word Break]                          | [C++](139.cpp) |
-| 140 | [Word Break II]                       |                |
-| 152 | [Maximum Product Subarray]            | [C](152.c)     |
-| 174 | [Dungeon Game]                        |                |
-| 188 | [Best Time to Buy and Sell Stock IV]  |                |
+|     | Dynamic Programming                   | Solution           |
+| --- | ------------------------------------- | ------------------ |
+| 10  | [Regular Expression Matching]         |                    |
+| 32  | [Longest Valid Parentheses]           |                    |
+| 44  | [Wildcard Matching]                   |                    |
+| 53  | [Maximum Subarray]                    | [C](src/53.c)      |
+| 62  | [Unique Paths]                        | [C](src/62.c)      |
+| 63  | [Unique Paths II]                     | [C](src/63.c)      |
+| 64  | [Minimum Path Sum]                    | [C](src/64.c)      |
+| 70  | [Climbing Stairs]                     | [C](src/70.c)      |
+| 72  | [Edit Distance]                       |                    |
+| 85  | [Maximal Rectangle]                   |                    |
+| 87  | [Scramble String]                     |                    |
+| 91  | [Decode Ways]                         | [C](src/91.c)      |
+| 96  | [Unique Binary Search Trees]          | [C](src/96.c)      |
+| 97  | [Interleaving String]                 |                    |
+| 115 | [Distinct Subsequences]               |                    |
+| 120 | [Triangle]                            | [C](src/120.c)     |
+| 121 | [Best Time to Buy and Sell Stock]     | [C](src/121.c)     |
+| 123 | [Best Time to Buy and Sell Stock III] |                    |
+| 132 | [Palindrome Partitioning II]          |                    |
+| 139 | [Word Break]                          | [C++](src/139.cpp) |
+| 140 | [Word Break II]                       |                    |
+| 152 | [Maximum Product Subarray]            | [C](src/152.c)     |
+| 174 | [Dungeon Game]                        |                    |
+| 188 | [Best Time to Buy and Sell Stock IV]  |                    |
 
 
-|     | Bit Manipulation                      | Solution       |
-| --- | ------------------------------------- | -------------- |
-| 78  | [Subsets]                             |                |
-| 136 | [Single Number]                       | [C](136.c)     |
-| 137 | [Single Number II]                    |                |
-| 169 | [Majority Element]                    |                |
-| 187 | [Repeated DNA Sequences]              |                |
-| 190 | [Reverse Bits]                        | [C](190.c)     |
-| 191 | [Number of 1 Bits]                    | [C](191.c)     |
+|     | Bit Manipulation                      | Solution           |
+| --- | ------------------------------------- | ------------------ |
+| 78  | [Subsets]                             |                    |
+| 136 | [Single Number]                       | [C](src/136.c)     |
+| 137 | [Single Number II]                    |                    |
+| 169 | [Majority Element]                    |                    |
+| 187 | [Repeated DNA Sequences]              |                    |
+| 190 | [Reverse Bits]                        | [C](src/190.c)     |
+| 191 | [Number of 1 Bits]                    | [C](src/191.c)     |
 
 
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
