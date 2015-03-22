@@ -2,7 +2,7 @@ Pure C solution for LeetCode
 ============================
 
 This project aims at solving [LeetCode algorithm problems] with pure C Language 
-using as less library functions as I can, which means except memory management
+using as little library functions as I can, which means except memory management
 functions and few string functions I will implement everything I need such
 as tree, stack and hash table.
 
