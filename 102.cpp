@@ -20,8 +20,8 @@ public:
         if (!root) return ret;
         q.push(root);
 
-        int next = 0; // number of nodes in next level (include NULL nodes)
-        int cur = 1; // number of nodes in current level (include NULL nodes)
+        int next = 0; // number of nodes in next level, includling NULL nodes
+        int cur = 1; // number of nodes in current level, including NULL nodes
         int count = 0; // count of nodes already traversed in current level
         while (!q.empty()) {
             TreeNode *p = q.front();
