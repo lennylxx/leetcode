@@ -113,8 +113,8 @@ them with C++ Language.
 [Best Time to Buy and Sell Stock II]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
 [Best Time to Buy and Sell Stock]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
 [Triangle]: https://leetcode.com/problems/triangle/
-[Pascal&#;s Triangle II]: https://leetcode.com/problems/pascals-triangle-ii/
-[Pascal&#;s Triangle]: https://leetcode.com/problems/pascals-triangle/
+[Pascal's Triangle II]: https://leetcode.com/problems/pascals-triangle-ii/
+[Pascal's Triangle]: https://leetcode.com/problems/pascals-triangle/
 [Populating Next Right Pointers in Each Node II]: https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/
 [Populating Next Right Pointers in Each Node]: https://leetcode.com/problems/populating-next-right-pointers-in-each-node/
 [Distinct Subsequences]: https://leetcode.com/problems/distinct-subsequences/
@@ -158,7 +158,7 @@ them with C++ Language.
 [Combinations]: https://leetcode.com/problems/combinations/
 [Minimum Window Substring]: https://leetcode.com/problems/minimum-window-substring/
 [Sort Colors]: https://leetcode.com/problems/sort-colors/
-[Search a 2D Matrix]: https://leetcode.com/problems/search-a-d-matrix/
+[Search a 2D Matrix]: https://leetcode.com/problems/search-a-2d-matrix/
 [Set Matrix Zeroes]: https://leetcode.com/problems/set-matrix-zeroes/
 [Edit Distance]: https://leetcode.com/problems/edit-distance/
 [Simplify Path]: https://leetcode.com/problems/simplify-path/
