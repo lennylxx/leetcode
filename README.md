@@ -23,6 +23,7 @@ them with C++ Language.
 | 85  | [Maximal Rectangle]                   |                    |
 | 87  | [Scramble String]                     |                    |
 | 91  | [Decode Ways]                         | [C](src/91.c)      |
+| 95  | [Unique Binary Search Trees II]       | [C++](src/95.cpp)  |
 | 96  | [Unique Binary Search Trees]          | [C](src/96.c)      |
 | 97  | [Interleaving String]                 |                    |
 | 115 | [Distinct Subsequences]               |                    |
