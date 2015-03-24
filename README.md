@@ -19,7 +19,7 @@ them with C++ Language.
 | 63  | [Unique Paths II]                     | [C](src/63.c)      |
 | 64  | [Minimum Path Sum]                    | [C](src/64.c)      |
 | 70  | [Climbing Stairs]                     | [C](src/70.c)      |
-| 72  | [Edit Distance]                       |                    |
+| 72  | [Edit Distance]                       | [C](src/72.c)      |
 | 85  | [Maximal Rectangle]                   |                    |
 | 87  | [Scramble String]                     |                    |
 | 91  | [Decode Ways]                         | [C](src/91.c)      |
