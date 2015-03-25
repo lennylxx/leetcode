@@ -1,4 +1,9 @@
 #include <stdio.h>
+#include <stdint.h>
+
+/*
+    https://graphics.stanford.edu/~seander/bithacks.html
+*/
 
 void print_bits(uint32_t n) {
     int i = 32;

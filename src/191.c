@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdint.h>
+
 /*
     1. https://graphics.stanford.edu/~seander/bithacks.html
     2. Hacker's Delight 2nd Edition, Chapter 5. Counting Bits
@@ -52,8 +54,8 @@ int hammingWeight_3(uint32_t n) {
     return t;
 }
 
+/* simplification of hammingWeight_3 */
 int hammingWeight_4(uint32_t n) {
-    /* simplification of hammingWeight_3 */
     n = n - ((n >> 1) & 0x55555555);
     n = (n & 0x33333333) + ((n >> 2) & 0x33333333);
     n = (n + (n >> 4)) & 0x0F0F0F0F;
