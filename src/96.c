@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* 
+    Catalan Number Catalan(n) = 2(2n-1)/(n+1)*Catalan(n-1)
+                              = C(2n, n)/(n+1) = (2n)!/(n+1)!n!  
+    http://mathworld.wolfram.com/CatalanNumber.html
+*/
+
 int numTrees(int n) {
     if (n < 3) return n;
     
