@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* space: O(m+n) */
-void setZeroes(int **matrix, int m, int n) {
+/* space: O(m+n) time: O(m*n) */
+void setZeroes_1(int **matrix, int m, int n) {
     int *row_flag = (int *)calloc(m, sizeof(int));
     int *col_flag = (int *)calloc(n, sizeof(int));
 
@@ -28,6 +28,53 @@ void setZeroes(int **matrix, int m, int n) {
                 matrix[i][jj] = 0;
             }
         }
+    }
+}
+
+/* space: O(1) time: O(m*n)
+ * use first column to set row flag
+ * and first row to set column flag */
+void setZeroes(int **matrix, int m, int n) {
+    int first_col_zero, first_row_zero;
+    first_col_zero = first_row_zero = 0;
+    int i, j;
+    /* scan first column */
+    for (i = 0; i < m; i++) {
+        if (matrix[i][0] == 0) {
+            first_col_zero = 1;
+            break;
+        }
+    }
+    /* scan first row */
+    for (j = 0; j < n; j++) {
+        if (matrix[0][j] == 0) {
+            first_row_zero = 1;
+            break;
+        }
+    }
+    /* scan the matrix */
+    for (i = 0; i < m; i++) {
+        for (j = 0; j < n; j++) {
+            if (matrix[i][j] == 0) {
+                matrix[i][0] = 0;
+                matrix[0][j] = 0;
+            }
+        }
+    }
+    /* set zeros except first column and first row */
+    for (i = 1; i < m; i++) {
+        for (j = 1; j < n; j++) {
+            if (matrix[i][0] == 0 || matrix[0][j] == 0) {
+                matrix[i][j] = 0;
+            }
+        }
+    }
+    /* set first column and first row to zero */
+    if (first_col_zero) {
+        for (i = 0; i < m; i++) matrix[i][0] = 0;
+    }
+    if (first_row_zero) {
+        for (j = 0; j < n; j++) matrix[0][j] = 0;
     }
 }
 
