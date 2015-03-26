@@ -32,4 +32,5 @@ int maxProfit(int prices[], int n){
 int main() {
     int prices[] = {1, 2, 3, 2, 4};
     printf("%d\n", maxProfit(prices, sizeof(prices)/sizeof(prices[0])));
+    return 0;
 }

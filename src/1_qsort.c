@@ -8,8 +8,8 @@ typedef struct {
 
 int compar(const void *p1, const void *p2) {
     if (((Node *)p1)->data < ((Node *)p2)->data) return -1;
-    if (((Node *)p1)->data == ((Node *)p2)->data) return 0;
-    if (((Node *)p1)->data > ((Node *)p2)->data) return 1;
+    else if (((Node *)p1)->data > ((Node *)p2)->data) return 1;
+    else return 0;
 }
 
 int *twoSum(int numbers[], int n, int target) {
@@ -59,5 +59,5 @@ int main() {
         printf("index%d = %d ", i + 1, index[i]);
     }
     printf("\n");
-
+    return 0;
 }

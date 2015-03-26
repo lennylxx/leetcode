@@ -59,4 +59,5 @@ int main()
     char s[] = "   the sky   is blue    ";
     reverseWords(s);
     printf("%s\n", s);
+    return 0;
 }

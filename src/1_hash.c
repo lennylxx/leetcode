@@ -78,5 +78,5 @@ int main() {
         printf("index%d = %d ", i + 1, index[i]);
     }
     printf("\n");
-
+    return 0;
 }

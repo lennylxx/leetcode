@@ -77,5 +77,6 @@ int main()
 {
     char *tokens[] = {"3","-4","+"};
     printf("%d\n", evalRPN(tokens, sizeof(tokens)/ sizeof(tokens[0])));
+    return 0;
 }
 
