@@ -48,6 +48,21 @@ them with C++ Language.
 | 190 | [Reverse Bits]                        | [C](src/190.c)     |
 | 191 | [Number of 1 Bits]                    | [C](src/191.c)     |
 
+|     | Tree                                  | Solution           |
+| --- | ------------------------------------- | ------------------ |
+| 94  | [Binary Tree Inorder Traversal]       | [C](src/94.c)      |
+| 98  | [Validate Binary Search Tree]         | [C](src/98.c)      |
+| 100 | [Same Tree]                           | [C](src/100.c)     |
+| 102 | [Binary Tree Level Order Traversal]   | [C++](src/102.cpp) |
+| 103 | [Binary Tree Zigzag Level Order Traversal] | [C++](src/103.cpp) |
+| 104 | [Maximum Depth of Binary Tree]        | [C](src/104.c)     |
+| 107 | [Binary Tree Level Order Traversal II]| [C++](src/107.cpp) |
+| 110 | [Balanced Binary Tree]                | [C](src/110.c)     |
+| 111 | [Minimum Depth of Binary Tree]        | [C](src/111.c)     |
+| 112 | [Path Sum]                            | [C](src/112.c)     |
+| 144 | [Binary Tree Preorder Traversal]      | [C++](src/144.cpp) |
+| 145 | [Binary Tree Postorder Traversal]     | [C](src/145.c)     |
+
 
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
