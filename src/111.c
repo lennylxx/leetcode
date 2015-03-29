@@ -14,20 +14,17 @@ int minDepth(struct TreeNode *root) {
     int l = minDepth(root->left);
     int r = minDepth(root->right);   
     
-    if (l && r) {
-        if (l < r)
-            return l + 1;
-        else
-            return r + 1;
-    }
-    else if (l == 0 && r == 0) { /* leaf */
+    if (l == 0 && r == 0) { /* leaf */
         return 1;
     }
+    else if (l && r == 0) { /* no right child */
+        return l + 1;
+    }
+    else if (r && l == 0) { /* no left child */
+        return r + 1;
+    }
     else {
-        if (l == 0) /* no left child */
-            return r + 1;
-        if (r == 0) /* no right child */
-            return l + 1;
+        return l < r ? (l + 1) : (r + 1);
     }
 }
 
