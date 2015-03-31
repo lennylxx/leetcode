@@ -11,6 +11,7 @@ them with C++ Language.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 198 | [House Robber]                                               | [C](src/198.c)     |
 | 191 | [Number of 1 Bits]                                           | [C](src/191.c)     |
 | 190 | [Reverse Bits]                                               | [C](src/190.c)     |
 | 189 | [Rotate Array]                                               | [C](src/189.c)     |
@@ -32,7 +33,7 @@ them with C++ Language.
 | 163 | [Missing Ranges]                                             |                    |
 | 162 | [Find Peak Element]                                          |                    |
 | 161 | [One Edit Distance]                                          |                    |
-| 160 | [Intersection of Two Linked Lists]                           |                    |
+| 160 | [Intersection of Two Linked Lists]                           | [C](src/160.c)     |
 | 159 | [Longest Substring with At Most Two Distinct Characters]     |                    |
 | 158 | [Read N Characters Given Read4 II - Call multiple times]     |                    |
 | 157 | [Read N Characters Given Read4]                              |                    |
@@ -197,6 +198,7 @@ them with C++ Language.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[House Robber]: https://leetcode.com/problems/house-robber/
 [Number of 1 Bits]: https://leetcode.com/problems/number-of-1-bits/
 [Reverse Bits]: https://leetcode.com/problems/reverse-bits/
 [Rotate Array]: https://leetcode.com/problems/rotate-array/
