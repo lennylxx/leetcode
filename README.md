@@ -9,59 +9,189 @@ as tree, stack and hash table.
 Parts of the problems don't provide C interface for solution, so I accomplished
 them with C++ Language.
 
-|     | Dynamic Programming                   | Solution           |
-| --- | ------------------------------------- | ------------------ |
-| 10  | [Regular Expression Matching]         |                    |
-| 32  | [Longest Valid Parentheses]           |                    |
-| 44  | [Wildcard Matching]                   |                    |
-| 53  | [Maximum Subarray]                    | [C](src/53.c)      |
-| 62  | [Unique Paths]                        | [C](src/62.c)      |
-| 63  | [Unique Paths II]                     | [C](src/63.c)      |
-| 64  | [Minimum Path Sum]                    | [C](src/64.c)      |
-| 70  | [Climbing Stairs]                     | [C](src/70.c)      |
-| 72  | [Edit Distance]                       | [C](src/72.c)      |
-| 85  | [Maximal Rectangle]                   |                    |
-| 87  | [Scramble String]                     |                    |
-| 91  | [Decode Ways]                         | [C](src/91.c)      |
-| 95  | [Unique Binary Search Trees II]       | [C++](src/95.cpp)  |
-| 96  | [Unique Binary Search Trees]          | [C](src/96.c)      |
-| 97  | [Interleaving String]                 |                    |
-| 115 | [Distinct Subsequences]               |                    |
-| 120 | [Triangle]                            | [C](src/120.c)     |
-| 121 | [Best Time to Buy and Sell Stock]     | [C](src/121.c)     |
-| 123 | [Best Time to Buy and Sell Stock III] |                    |
-| 132 | [Palindrome Partitioning II]          |                    |
-| 139 | [Word Break]                          | [C++](src/139.cpp) |
-| 140 | [Word Break II]                       |                    |
-| 152 | [Maximum Product Subarray]            | [C](src/152.c)     |
-| 174 | [Dungeon Game]                        |                    |
-| 188 | [Best Time to Buy and Sell Stock IV]  |                    |
-
-
-|     | Bit Manipulation                      | Solution           |
-| --- | ------------------------------------- | ------------------ |
-| 78  | [Subsets]                             |                    |
-| 136 | [Single Number]                       | [C](src/136.c)     |
-| 137 | [Single Number II]                    |                    |
-| 169 | [Majority Element]                    |                    |
-| 187 | [Repeated DNA Sequences]              |                    |
-| 190 | [Reverse Bits]                        | [C](src/190.c)     |
-| 191 | [Number of 1 Bits]                    | [C](src/191.c)     |
-
-|     | Tree                                  | Solution           |
-| --- | ------------------------------------- | ------------------ |
-| 94  | [Binary Tree Inorder Traversal]       | [C](src/94.c)      |
-| 98  | [Validate Binary Search Tree]         | [C](src/98.c)      |
-| 100 | [Same Tree]                           | [C](src/100.c)     |
-| 102 | [Binary Tree Level Order Traversal]   | [C++](src/102.cpp) |
-| 103 | [Binary Tree Zigzag Level Order Traversal] | [C++](src/103.cpp) |
-| 104 | [Maximum Depth of Binary Tree]        | [C](src/104.c)     |
-| 107 | [Binary Tree Level Order Traversal II]| [C++](src/107.cpp) |
-| 110 | [Balanced Binary Tree]                | [C](src/110.c)     |
-| 111 | [Minimum Depth of Binary Tree]        | [C](src/111.c)     |
-| 112 | [Path Sum]                            | [C](src/112.c)     |
-| 144 | [Binary Tree Preorder Traversal]      | [C++](src/144.cpp) |
-| 145 | [Binary Tree Postorder Traversal]     | [C](src/145.c)     |
+|     | Problem                                                      | Solution           |
+| --- | ------------------------------------------------------------ | ------------------ |
+| 191 | [Number of 1 Bits]                                           | [C](src/191.c)     |
+| 190 | [Reverse Bits]                                               | [C](src/190.c)     |
+| 189 | [Rotate Array]                                               | [C](src/189.c)     |
+| 188 | [Best Time to Buy and Sell Stock IV]                         |                    |
+| 187 | [Repeated DNA Sequences]                                     |                    |
+| 186 | [Reverse Words in a String II]                               |                    |
+| 179 | [Largest Number]                                             |                    |
+| 174 | [Dungeon Game]                                               |                    |
+| 173 | [Binary Search Tree Iterator]                                |                    |
+| 172 | [Factorial Trailing Zeroes]                                  | [C](src/172.c)     |
+| 171 | [Excel Sheet Column Number]                                  |                    |
+| 170 | [Two Sum III - Data structure design]                        |                    |
+| 169 | [Majority Element]                                           | [C](src/169.c)     |
+| 168 | [Excel Sheet Column Title]                                   |                    |
+| 167 | [Two Sum II - Input array is sorted]                         |                    |
+| 166 | [Fraction to Recurring Decimal]                              |                    |
+| 165 | [Compare Version Numbers]                                    | [C](src/165.c)     |
+| 164 | [Maximum Gap]                                                |                    |
+| 163 | [Missing Ranges]                                             |                    |
+| 162 | [Find Peak Element]                                          |                    |
+| 161 | [One Edit Distance]                                          |                    |
+| 160 | [Intersection of Two Linked Lists]                           |                    |
+| 159 | [Longest Substring with At Most Two Distinct Characters]     |                    |
+| 158 | [Read N Characters Given Read4 II - Call multiple times]     |                    |
+| 157 | [Read N Characters Given Read4]                              |                    |
+| 156 | [Binary Tree Upside Down]                                    |                    |
+| 155 | [Min Stack]                                                  |                    |
+| 154 | [Find Minimum in Rotated Sorted Array II]                    |                    |
+| 153 | [Find Minimum in Rotated Sorted Array]                       |                    |
+| 152 | [Maximum Product Subarray]                                   | [C](src/152.c)     |
+| 151 | [Reverse Words in a String]                                  | [C](src/151.c)     |
+| 150 | [Evaluate Reverse Polish Notation]                           | [C](src/150.c)     |
+| 149 | [Max Points on a Line]                                       |                    |
+| 148 | [Sort List]                                                  |                    |
+| 147 | [Insertion Sort List]                                        |                    |
+| 146 | [LRU Cache]                                                  |                    |
+| 145 | [Binary Tree Postorder Traversal]                            | [C](src/145.c)     |
+| 144 | [Binary Tree Preorder Traversal]                             | [C++](src/144.cpp) |
+| 143 | [Reorder List]                                               |                    |
+| 142 | [Linked List Cycle II]                                       |                    |
+| 141 | [Linked List Cycle]                                          |                    |
+| 140 | [Word Break II]                                              |                    |
+| 139 | [Word Break]                                                 | [C++](src/139.cpp) |
+| 138 | [Copy List with Random Pointer]                              |                    |
+| 137 | [Single Number II]                                           |                    |
+| 136 | [Single Number]                                              | [C](src/136.c)     |
+| 135 | [Candy]                                                      |                    |
+| 134 | [Gas Station]                                                |                    |
+| 133 | [Clone Graph]                                                |                    |
+| 132 | [Palindrome Partitioning II]                                 |                    |
+| 131 | [Palindrome Partitioning]                                    |                    |
+| 130 | [Surrounded Regions]                                         |                    |
+| 129 | [Sum Root to Leaf Numbers]                                   |                    |
+| 128 | [Longest Consecutive Sequence]                               | [C](src/128.c)     |
+| 127 | [Word Ladder]                                                |                    |
+| 126 | [Word Ladder II]                                             |                    |
+| 125 | [Valid Palindrome]                                           |                    |
+| 124 | [Binary Tree Maximum Path Sum]                               |                    |
+| 123 | [Best Time to Buy and Sell Stock III]                        |                    |
+| 122 | [Best Time to Buy and Sell Stock II]                         | [C](src/122.c)     |
+| 121 | [Best Time to Buy and Sell Stock]                            | [C](src/121.c)     |
+| 120 | [Triangle]                                                   | [C](src/120.c)     |
+| 119 | [Pascal's Triangle II]                                       |                    |
+| 118 | [Pascal's Triangle]                                          |                    |
+| 117 | [Populating Next Right Pointers in Each Node II]             |                    |
+| 116 | [Populating Next Right Pointers in Each Node]                |                    |
+| 115 | [Distinct Subsequences]                                      |                    |
+| 114 | [Flatten Binary Tree to Linked List]                         |                    |
+| 113 | [Path Sum II]                                                |                    |
+| 112 | [Path Sum]                                                   | [C](src/112.c)     |
+| 111 | [Minimum Depth of Binary Tree]                               | [C](src/111.c)     |
+| 110 | [Balanced Binary Tree]                                       | [C](src/110.c)     |
+| 109 | [Convert Sorted List to Binary Search Tree]                  |                    |
+| 108 | [Convert Sorted Array to Binary Search Tree]                 |                    |
+| 107 | [Binary Tree Level Order Traversal II]                       | [C++](src/107.cpp) |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal] |                    |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal]  |                    |
+| 104 | [Maximum Depth of Binary Tree]                               | [C](src/104.c)     |
+| 103 | [Binary Tree Zigzag Level Order Traversal]                   | [C++](src/103.cpp) |
+| 102 | [Binary Tree Level Order Traversal]                          | [C++](src/102.cpp) |
+| 101 | [Symmetric Tree]                                             |                    |
+| 100 | [Same Tree]                                                  | [C](src/100.c)     |
+| 99  | [Recover Binary Search Tree]                                 |                    |
+| 98  | [Validate Binary Search Tree]                                | [C](src/98.c)      |
+| 97  | [Interleaving String]                                        |                    |
+| 96  | [Unique Binary Search Trees]                                 | [C](src/96.c)      |
+| 95  | [Unique Binary Search Trees II]                              | [C++](src/95.cpp)  |
+| 94  | [Binary Tree Inorder Traversal]                              | [C](src/94.c)      |
+| 93  | [Restore IP Addresses]                                       |                    |
+| 92  | [Reverse Linked List II]                                     |                    |
+| 91  | [Decode Ways]                                                | [C](src/91.c)      |
+| 90  | [Subsets II]                                                 |                    |
+| 89  | [Gray Code]                                                  |                    |
+| 88  | [Merge Sorted Array]                                         |                    |
+| 87  | [Scramble String]                                            |                    |
+| 86  | [Partition List]                                             |                    |
+| 85  | [Maximal Rectangle]                                          |                    |
+| 84  | [Largest Rectangle in Histogram]                             |                    |
+| 83  | [Remove Duplicates from Sorted List]                         |                    |
+| 82  | [Remove Duplicates from Sorted List II]                      |                    |
+| 81  | [Search in Rotated Sorted Array II]                          |                    |
+| 80  | [Remove Duplicates from Sorted Array II]                     |                    |
+| 79  | [Word Search]                                                |                    |
+| 78  | [Subsets]                                                    |                    |
+| 77  | [Combinations]                                               |                    |
+| 76  | [Minimum Window Substring]                                   |                    |
+| 75  | [Sort Colors]                                                |                    |
+| 74  | [Search a 2D Matrix]                                         |                    |
+| 73  | [Set Matrix Zeroes]                                          | [C](src/73.c)      |
+| 72  | [Edit Distance]                                              | [C](src/72.c)      |
+| 71  | [Simplify Path]                                              |                    |
+| 70  | [Climbing Stairs]                                            | [C](src/70.c)      |
+| 69  | [Sqrt(x)]                                                    |                    |
+| 68  | [Text Justification]                                         |                    |
+| 67  | [Add Binary]                                                 |                    |
+| 66  | [Plus One]                                                   |                    |
+| 65  | [Valid Number]                                               |                    |
+| 64  | [Minimum Path Sum]                                           | [C](src/64.c)      |
+| 63  | [Unique Paths II]                                            | [C](src/63.c)      |
+| 62  | [Unique Paths]                                               | [C](src/62.c)      |
+| 61  | [Rotate List]                                                |                    |
+| 60  | [Permutation Sequence]                                       |                    |
+| 59  | [Spiral Matrix II]                                           |                    |
+| 58  | [Length of Last Word]                                        |                    |
+| 57  | [Insert Interval]                                            |                    |
+| 56  | [Merge Intervals]                                            |                    |
+| 55  | [Jump Game]                                                  |                    |
+| 54  | [Spiral Matrix]                                              |                    |
+| 53  | [Maximum Subarray]                                           | [C](src/53.c)      |
+| 52  | [N-Queens II]                                                |                    |
+| 51  | [N-Queens]                                                   |                    |
+| 50  | [Pow(x, n)]                                                  |                    |
+| 49  | [Anagrams]                                                   |                    |
+| 48  | [Rotate Image]                                               |                    |
+| 47  | [Permutations II]                                            |                    |
+| 46  | [Permutations]                                               |                    |
+| 45  | [Jump Game II]                                               |                    |
+| 44  | [Wildcard Matching]                                          |                    |
+| 43  | [Multiply Strings]                                           |                    |
+| 42  | [Trapping Rain Water]                                        |                    |
+| 41  | [First Missing Positive]                                     |                    |
+| 40  | [Combination Sum II]                                         |                    |
+| 39  | [Combination Sum]                                            |                    |
+| 38  | [Count and Say]                                              |                    |
+| 37  | [Sudoku Solver]                                              |                    |
+| 36  | [Valid Sudoku]                                               |                    |
+| 35  | [Search Insert Position]                                     |                    |
+| 34  | [Search for a Range]                                         |                    |
+| 33  | [Search in Rotated Sorted Array]                             |                    |
+| 32  | [Longest Valid Parentheses]                                  |                    |
+| 31  | [Next Permutation]                                           |                    |
+| 30  | [Substring with Concatenation of All Words]                  |                    |
+| 29  | [Divide Two Integers]                                        |                    |
+| 28  | [Implement strStr()]                                         |                    |
+| 27  | [Remove Element]                                             |                    |
+| 26  | [Remove Duplicates from Sorted Array]                        |                    |
+| 25  | [Reverse Nodes in k-Group]                                   |                    |
+| 24  | [Swap Nodes in Pairs]                                        |                    |
+| 23  | [Merge k Sorted Lists]                                       |                    |
+| 22  | [Generate Parentheses]                                       |                    |
+| 21  | [Merge Two Sorted Lists]                                     |                    |
+| 20  | [Valid Parentheses]                                          | [C](src/20.c)      |
+| 19  | [Remove Nth Node From End of List]                           |                    |
+| 18  | [4Sum]                                                       |                    |
+| 17  | [Letter Combinations of a Phone Number]                      |                    |
+| 16  | [3Sum Closest]                                               |                    |
+| 15  | [3Sum]                                                       |                    |
+| 14  | [Longest Common Prefix]                                      |                    |
+| 13  | [Roman to Integer]                                           |                    |
+| 12  | [Integer to Roman]                                           |                    |
+| 11  | [Container With Most Water]                                  |                    |
+| 10  | [Regular Expression Matching]                                |                    |
+| 9   | [Palindrome Number]                                          | [C](src/9.c)       |
+| 8   | [String to Integer (atoi)]                                   | [C](src/8.c)       |
+| 7   | [Reverse Integer]                                            | [C](src/7.c)       |
+| 6   | [ZigZag Conversion]                                          |                    |
+| 5   | [Longest Palindromic Substring]                              |                    |
+| 4   | [Median of Two Sorted Arrays]                                |                    |
+| 3   | [Longest Substring Without Repeating Characters]             |                    |
+| 2   | [Add Two Numbers]                                            |                    |
+| 1   | [Two Sum]                                                    | [C](src/1.c)       |
 
 
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
