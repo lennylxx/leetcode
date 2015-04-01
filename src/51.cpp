@@ -19,20 +19,18 @@ public:
 
     void placeQueens(vector<vector<string> > &ret, vector<int> &columns, int row) {
         int n = columns.size();
-
-        for (int j = 0; j < n; j++) {
-            if (row == n) { /* found one solution! */
-                vector<string> solution;
-                /* build solution vector */
-                for (int i = 0; i < n; i++) {
-                    string line(n, '.');
-                    line[columns[i]] = 'Q';
-                    solution.push_back(line);
-                }
-                ret.push_back(solution);
-
-                return;
+        if (row == n) { /* found one solution! */
+            vector<string> solution;
+            /* build solution vector */
+            for (int i = 0; i < n; i++) {
+                string line(n, '.');
+                line[columns[i]] = 'Q';
+                solution.push_back(line);
             }
+            ret.push_back(solution);
+            return;
+        }
+        for (int j = 0; j < n; j++) {
             /* try to place a queen in this row */
             columns[row] = j;
             /* put another queen in next row if this row's position is valid */

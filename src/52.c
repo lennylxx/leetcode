@@ -16,11 +16,11 @@ bool isValid(int *columns, int row) {
 
 void placeQueens(int *count, int *columns, int row, int n) {
     int j; /* column */
+    if (row == n) { /* found one solution */
+        (*count) ++;
+        return;
+    }
     for (j = 0; j < n; j++) {
-        if (row == n) { /* found one solution */
-            (*count) ++;
-            return;
-        }
         /* try to place a queen */
         columns[row] = j;
         if (isValid(columns, row)) {
