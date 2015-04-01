@@ -112,7 +112,7 @@ them with C++ Language.
 | 84  | [Largest Rectangle in Histogram]                             |                    |
 | 83  | [Remove Duplicates from Sorted List]                         |                    |
 | 82  | [Remove Duplicates from Sorted List II]                      |                    |
-| 81  | [Search in Rotated Sorted Array II]                          |                    |
+| 81  | [Search in Rotated Sorted Array II]                          | [C](src/81.c)      |
 | 80  | [Remove Duplicates from Sorted Array II]                     |                    |
 | 79  | [Word Search]                                                |                    |
 | 78  | [Subsets]                                                    |                    |
@@ -141,11 +141,11 @@ them with C++ Language.
 | 55  | [Jump Game]                                                  |                    |
 | 54  | [Spiral Matrix]                                              |                    |
 | 53  | [Maximum Subarray]                                           | [C](src/53.c)      |
-| 52  | [N-Queens II]                                                |                    |
-| 51  | [N-Queens]                                                   |                    |
+| 52  | [N-Queens II]                                                | [C](src/52.c)      |
+| 51  | [N-Queens]                                                   | [C++](src/51.cpp)  |
 | 50  | [Pow(x, n)]                                                  |                    |
 | 49  | [Anagrams]                                                   |                    |
-| 48  | [Rotate Image]                                               |                    |
+| 48  | [Rotate Image]                                               | [C](src/48.c)      |
 | 47  | [Permutations II]                                            |                    |
 | 46  | [Permutations]                                               |                    |
 | 45  | [Jump Game II]                                               |                    |
@@ -158,9 +158,9 @@ them with C++ Language.
 | 38  | [Count and Say]                                              |                    |
 | 37  | [Sudoku Solver]                                              |                    |
 | 36  | [Valid Sudoku]                                               |                    |
-| 35  | [Search Insert Position]                                     |                    |
+| 35  | [Search Insert Position]                                     | [C](src/35.c)      |
 | 34  | [Search for a Range]                                         |                    |
-| 33  | [Search in Rotated Sorted Array]                             |                    |
+| 33  | [Search in Rotated Sorted Array]                             | [C](src/33.c)      |
 | 32  | [Longest Valid Parentheses]                                  |                    |
 | 31  | [Next Permutation]                                           |                    |
 | 30  | [Substring with Concatenation of All Words]                  |                    |
