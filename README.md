@@ -69,7 +69,7 @@ them with C++ Language.
 | 128 | [Longest Consecutive Sequence]                               | [C](src/128.c)     |
 | 127 | [Word Ladder]                                                |                    |
 | 126 | [Word Ladder II]                                             |                    |
-| 125 | [Valid Palindrome]                                           |                    |
+| 125 | [Valid Palindrome]                                           | [C](src/125.c)     |
 | 124 | [Binary Tree Maximum Path Sum]                               |                    |
 | 123 | [Best Time to Buy and Sell Stock III]                        |                    |
 | 122 | [Best Time to Buy and Sell Stock II]                         | [C](src/122.c)     |
