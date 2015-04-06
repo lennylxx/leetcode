@@ -102,7 +102,7 @@ them with C++ Language.
 | 95  | [Unique Binary Search Trees II]                              | [C++](src/95.cpp)  |
 | 94  | [Binary Tree Inorder Traversal]                              | [C](src/94.c)      |
 | 93  | [Restore IP Addresses]                                       |                    |
-| 92  | [Reverse Linked List II]                                     |                    |
+| 92  | [Reverse Linked List II]                                     | [C](src/92.c)      |
 | 91  | [Decode Ways]                                                | [C](src/91.c)      |
 | 90  | [Subsets II]                                                 |                    |
 | 89  | [Gray Code]                                                  |                    |
