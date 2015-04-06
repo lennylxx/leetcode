@@ -39,7 +39,7 @@ them with C++ Language.
 | 158 | [Read N Characters Given Read4 II - Call multiple times]     |                    |
 | 157 | [Read N Characters Given Read4]                              |                    |
 | 156 | [Binary Tree Upside Down]                                    |                    |
-| 155 | [Min Stack]                                                  |                    |
+| 155 | [Min Stack]                                                  | [C](src/155.c)     |
 | 154 | [Find Minimum in Rotated Sorted Array II]                    |                    |
 | 153 | [Find Minimum in Rotated Sorted Array]                       |                    |
 | 152 | [Maximum Product Subarray]                                   | [C](src/152.c)     |
