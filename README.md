@@ -23,7 +23,7 @@ them with C++ Language.
 | 174 | [Dungeon Game]                                               |                    |
 | 173 | [Binary Search Tree Iterator]                                |                    |
 | 172 | [Factorial Trailing Zeroes]                                  | [C](src/172.c)     |
-| 171 | [Excel Sheet Column Number]                                  |                    |
+| 171 | [Excel Sheet Column Number]                                  | [C](src/171.c)     |
 | 170 | [Two Sum III - Data structure design]                        |                    |
 | 169 | [Majority Element]                                           | [C](src/169.c)     |
 | 168 | [Excel Sheet Column Title]                                   | [C](src/168.c)     |
