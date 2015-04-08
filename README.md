@@ -26,7 +26,7 @@ them with C++ Language.
 | 171 | [Excel Sheet Column Number]                                  |                    |
 | 170 | [Two Sum III - Data structure design]                        |                    |
 | 169 | [Majority Element]                                           | [C](src/169.c)     |
-| 168 | [Excel Sheet Column Title]                                   |                    |
+| 168 | [Excel Sheet Column Title]                                   | [C](src/168.c)     |
 | 167 | [Two Sum II - Input array is sorted]                         |                    |
 | 166 | [Fraction to Recurring Decimal]                              |                    |
 | 165 | [Compare Version Numbers]                                    | [C](src/165.c)     |
