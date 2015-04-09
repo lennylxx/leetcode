@@ -76,7 +76,7 @@ them with C++ Language.
 | 121 | [Best Time to Buy and Sell Stock]                            | [C](src/121.c)     |
 | 120 | [Triangle]                                                   | [C](src/120.c)     |
 | 119 | [Pascal's Triangle II]                                       |                    |
-| 118 | [Pascal's Triangle]                                          |                    |
+| 118 | [Pascal's Triangle]                                          | [C](src/118.cpp)   |
 | 117 | [Populating Next Right Pointers in Each Node II]             |                    |
 | 116 | [Populating Next Right Pointers in Each Node]                |                    |
 | 115 | [Distinct Subsequences]                                      |                    |
