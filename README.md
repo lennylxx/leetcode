@@ -75,7 +75,7 @@ them with C++ Language.
 | 122 | [Best Time to Buy and Sell Stock II]                         | [C](src/122.c)     |
 | 121 | [Best Time to Buy and Sell Stock]                            | [C](src/121.c)     |
 | 120 | [Triangle]                                                   | [C](src/120.c)     |
-| 119 | [Pascal's Triangle II]                                       |                    |
+| 119 | [Pascal's Triangle II]                                       | [C](src/119.c)     |
 | 118 | [Pascal's Triangle]                                          | [C](src/118.cpp)   |
 | 117 | [Populating Next Right Pointers in Each Node II]             |                    |
 | 116 | [Populating Next Right Pointers in Each Node]                |                    |
@@ -224,7 +224,7 @@ them with C++ Language.
 [Intersection of Two Linked Lists]: https://leetcode.com/problems/intersection-of-two-linked-lists/
 [Longest Substring with At Most Two Distinct Characters]: https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
 [Read N Characters Given Read4 II - Call multiple times]: https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times/
-[Read N Characters Given Read4]: https://leetcode.com/problems/read4-n-characters-given-read/
+[Read N Characters Given Read4]: https://leetcode.com/problems/read-n-characters-given-read4/
 [Binary Tree Upside Down]: https://leetcode.com/problems/binary-tree-upside-down/
 [Min Stack]: https://leetcode.com/problems/min-stack/
 [Find Minimum in Rotated Sorted Array II]: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
