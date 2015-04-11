@@ -11,6 +11,7 @@ them with C++ Language.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 200 | [Number of Islands]                                          | [C](src/200.c)     |
 | 199 | [Binary Tree Right Side View]                                | [C](src/199.c)     |
 | 198 | [House Robber]                                               | [C](src/198.c)     |
 | 191 | [Number of 1 Bits]                                           | [C](src/191.c)     |
@@ -198,6 +199,8 @@ them with C++ Language.
 
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
+
+[Number of Islands]: https://leetcode.com/problems/number-of-islands/
 [Binary Tree Right Side View]: https://leetcode.com/problems/binary-tree-right-side-view/
 [House Robber]: https://leetcode.com/problems/house-robber/
 [Number of 1 Bits]: https://leetcode.com/problems/number-of-1-bits/
