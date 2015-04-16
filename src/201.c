@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int rangeBitwiseAnd(int m, int n) {
+int rangeBitwiseAnd_1(int m, int n) {
     unsigned ans = m;
     unsigned k;
     unsigned one_index = 0; /* first one's index */
@@ -30,6 +30,22 @@ int rangeBitwiseAnd(int m, int n) {
         one_index ++;
     }
     
+    return ans;
+}
+
+/** 
+ * algorithm comes from http://math.stackexchange.com/a/1073544
+ */
+int rangeBitwiseAnd(int m, int n) {
+    int k = 30;
+    unsigned ans = m & n;
+    /* check kth bit, if they are different, set remain bits to zero */
+    while (k > 0 && (m & (1 << k)) == (n & (1 << k))){
+        k--;
+    }
+    /* there is no need to check 0th bit, we already do m AND n*/
+    ans >>= k;
+    ans <<= k;
     return ans;
 }
 
