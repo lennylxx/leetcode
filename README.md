@@ -169,7 +169,7 @@ them with C++ Language.
 | 30  | [Substring with Concatenation of All Words]                  |                    |
 | 29  | [Divide Two Integers]                                        |                    |
 | 28  | [Implement strStr()]                                         |                    |
-| 27  | [Remove Element]                                             |                    |
+| 27  | [Remove Element]                                             | [C](src/27.c)      |
 | 26  | [Remove Duplicates from Sorted Array]                        |                    |
 | 25  | [Reverse Nodes in k-Group]                                   |                    |
 | 24  | [Swap Nodes in Pairs]                                        |                    |
