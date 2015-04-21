@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 char* longestCommonPrefix(char** strs, int strsSize) {
@@ -8,7 +9,8 @@ char* longestCommonPrefix(char** strs, int strsSize) {
         return ans;
     }
     else {
-        ans = strdup(strs[0]);
+        ans = malloc(strlen(strs[0]));
+        strcpy(ans, strs[0]);
     }
 
     int i, j;
