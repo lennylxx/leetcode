@@ -170,7 +170,7 @@ them with C++ Language.
 | 29  | [Divide Two Integers]                                        |                    |
 | 28  | [Implement strStr()]                                         |                    |
 | 27  | [Remove Element]                                             | [C](src/27.c)      |
-| 26  | [Remove Duplicates from Sorted Array]                        |                    |
+| 26  | [Remove Duplicates from Sorted Array]                        | [C](src/26.c)      |
 | 25  | [Reverse Nodes in k-Group]                                   |                    |
 | 24  | [Swap Nodes in Pairs]                                        |                    |
 | 23  | [Merge k Sorted Lists]                                       |                    |
