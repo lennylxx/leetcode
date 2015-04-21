@@ -182,7 +182,7 @@ them with C++ Language.
 | 17  | [Letter Combinations of a Phone Number]                      |                    |
 | 16  | [3Sum Closest]                                               |                    |
 | 15  | [3Sum]                                                       |                    |
-| 14  | [Longest Common Prefix]                                      |                    |
+| 14  | [Longest Common Prefix]                                      | [C](src/14.c)      |
 | 13  | [Roman to Integer]                                           | [C](src/13.c)      |
 | 12  | [Integer to Roman]                                           | [C](src/12.c)      |
 | 11  | [Container With Most Water]                                  |                    |
