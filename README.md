@@ -194,7 +194,7 @@ them with C++ Language.
 | 5   | [Longest Palindromic Substring]                              |                    |
 | 4   | [Median of Two Sorted Arrays]                                |                    |
 | 3   | [Longest Substring Without Repeating Characters]             |                    |
-| 2   | [Add Two Numbers]                                            | [C++](src/2.cpp)   |
+| 2   | [Add Two Numbers]                                            | [C](src/2.c)       |
 | 1   | [Two Sum]                                                    | [C](src/1.c)       |
 
 
