@@ -9,6 +9,14 @@ as trees, stacks, queues and hash tables.
 Parts of the problems don't provide C interface for solution, so I accomplished
 them with C++ Language.
 
+Compile **C** files using command:
+
+    gcc -std=c99 -Wall src/foo.c -o foo
+
+Compile **C++** files using command:
+
+    g++ -std=c++11 -Wall src/bar.cpp -o bar
+
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
 | 201 | [Bitwise AND of Numbers Range]                               | [C](src/201.c)     |
