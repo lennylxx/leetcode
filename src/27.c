@@ -2,16 +2,18 @@
 
 int removeElement(int A[], int n, int elem) {
     int i, j, len;
-    j = n - 1;
     len = n;
-    for (i = 0; i < len; i++) {
+    i = 0, j = n - 1;
+    while (i < len) {
         if (A[i] == elem) {
             int t = A[j];
             A[j] = A[i];
             A[i] = t;
             len--;
             j--;
-            i--;
+        }
+        else {
+            i++;
         }
     }
 
