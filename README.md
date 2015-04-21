@@ -32,7 +32,7 @@ them with C++ Language.
 | 167 | [Two Sum II - Input array is sorted]                         |                    |
 | 166 | [Fraction to Recurring Decimal]                              |                    |
 | 165 | [Compare Version Numbers]                                    | [C](src/165.c)     |
-| 164 | [Maximum Gap]                                                |                    |
+| 164 | [Maximum Gap]                                                | [C](src/164.c)     |
 | 163 | [Missing Ranges]                                             |                    |
 | 162 | [Find Peak Element]                                          |                    |
 | 161 | [One Edit Distance]                                          |                    |
