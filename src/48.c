@@ -3,24 +3,20 @@
 
 void rotate(int **matrix, int n) {
     int i, j, k;
-    int a, b;
+    int t;
 
     for (k = 0, i = n - 1; i >= 0; i -= 2, k++) {
         for (j = 0; j < i; j++) {
-            /* left-up to right-up */
-            a = matrix[k + j][i + k];
-            matrix[k + j][i + k] = matrix[k][k + j];
-
-            /* right-up to right-down */
-            b = matrix[i + k][i + k - j];
-            matrix[i + k][i + k - j] = a;
-
-            /* right-down to left-down */
-            a = matrix[i + k - j][k];
-            matrix[i + k - j][k] = b;
-
+            /* backup left-up */
+            t = matrix[k][k + j];
             /* left-down to left-up */
-            matrix[k][k + j] = a;
+            matrix[k][k + j] = matrix[i + k - j][k];
+            /* right-down to left-down */
+            matrix[i + k - j][k] = matrix[i + k][i + k - j];
+            /* right-up to right-down */
+            matrix[i + k][i + k - j] = matrix[k + j][i + k];
+            /* left-up to right-up */
+            matrix[k + j][i + k] = t;
         }
     }
 }
