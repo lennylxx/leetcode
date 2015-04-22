@@ -147,7 +147,7 @@ Compile **C++** files using command:
 | 61  | [Rotate List]                                                |                    |
 | 60  | [Permutation Sequence]                                       |                    |
 | 59  | [Spiral Matrix II]                                           |                    |
-| 58  | [Length of Last Word]                                        |                    |
+| 58  | [Length of Last Word]                                        | [C](src/58.c)      |
 | 57  | [Insert Interval]                                            |                    |
 | 56  | [Merge Intervals]                                            |                    |
 | 55  | [Jump Game]                                                  |                    |
