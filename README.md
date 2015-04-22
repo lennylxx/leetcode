@@ -169,7 +169,7 @@ Compile **C++** files using command:
 | 39  | [Combination Sum]                                            |                    |
 | 38  | [Count and Say]                                              |                    |
 | 37  | [Sudoku Solver]                                              |                    |
-| 36  | [Valid Sudoku]                                               |                    |
+| 36  | [Valid Sudoku]                                               | [C](src/36.c)      |
 | 35  | [Search Insert Position]                                     | [C](src/35.c)      |
 | 34  | [Search for a Range]                                         |                    |
 | 33  | [Search in Rotated Sorted Array]                             | [C](src/33.c)      |
