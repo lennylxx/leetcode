@@ -137,7 +137,7 @@ Compile **C++** files using command:
 | 71  | [Simplify Path]                                              |                    |
 | 70  | [Climbing Stairs]                                            | [C](src/70.c)      |
 | 69  | [Sqrt(x)]                                                    |                    |
-| 68  | [Text Justification]                                         |                    |
+| 68  | [Text Justification]                                         | [C](src/68.c)      |
 | 67  | [Add Binary]                                                 | [C](src/67.c)      |
 | 66  | [Plus One]                                                   |                    |
 | 65  | [Valid Number]                                               |                    |
