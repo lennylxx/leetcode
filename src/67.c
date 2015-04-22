@@ -19,24 +19,19 @@ char* addBinary(char* a, char* b) {
         else if (i < len_b) {
             sum += b[len_b - 1 - i] - '0';
         }
-        ans[i] = sum % 2 + '0';
+        ans[len - i] = sum % 2 + '0';
         sum /= 2;
     }
+
+    ans[len + 1] = '\0';
+
     if (sum) {
-        ans[len] = sum + '0';
-        ans[len + 1] = '\0';
-        len = len + 1;
+        ans[0] = sum + '0';
+        return ans;
     }
     else {
-        ans[len] = '\0';
+        return ans + 1;
     }
-    /* reverse string */
-    for (i = 0; i < (len / 2); i++) {
-        char t = ans[i];
-        ans[i] = ans[len - 1 - i];
-        ans[len - 1 - i] = t;
-    }
-    return ans;
 }
 
 int main() {
