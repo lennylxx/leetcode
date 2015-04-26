@@ -123,7 +123,7 @@ Compile **C++** files using command:
 | 86  | [Partition List]                                             |                    |
 | 85  | [Maximal Rectangle]                                          |                    |
 | 84  | [Largest Rectangle in Histogram]                             |                    |
-| 83  | [Remove Duplicates from Sorted List]                         |                    |
+| 83  | [Remove Duplicates from Sorted List]                         | [C](src/83.c)      |
 | 82  | [Remove Duplicates from Sorted List II]                      |                    |
 | 81  | [Search in Rotated Sorted Array II]                          | [C](src/81.c)      |
 | 80  | [Remove Duplicates from Sorted Array II]                     |                    |
