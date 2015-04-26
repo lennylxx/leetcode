@@ -156,7 +156,7 @@ Compile **C++** files using command:
 | 53  | [Maximum Subarray]                                           | [C](src/53.c)      |
 | 52  | [N-Queens II]                                                | [C](src/52.c)      |
 | 51  | [N-Queens]                                                   | [C++](src/51.cpp)  |
-| 50  | [Pow(x, n)]                                                  |                    |
+| 50  | [Pow(x, n)]                                                  | [C](src/50.c)      |
 | 49  | [Anagrams]                                                   |                    |
 | 48  | [Rotate Image]                                               | [C](src/48.c)      |
 | 47  | [Permutations II]                                            |                    |
