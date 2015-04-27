@@ -3,6 +3,9 @@
 #include <stdbool.h>
 
 /* 147 ms, a bit slow */
+/* So weird, it's 39 ms now. Does the test mechanism change? */
+/* I notice there is a line says "n is order in 1,000,000 to */
+/* 5,000,000", but it's gone now.                            */
 int countPrimes(int n) {
     bool *flag = (bool *)calloc(n + 1, sizeof(bool));
     int *prime = (int *)calloc(n / 2, sizeof(int));
