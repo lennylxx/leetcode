@@ -19,6 +19,7 @@ Compile **C++** files using command:
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 204 | [Count Primes]                                               | [C](src/204.c)     |
 | 203 | [Remove Linked List Elements]                                | [C](src/203.c)     |
 | 202 | [Happy Number]                                               | [C](src/202.c)     |
 | 201 | [Bitwise AND of Numbers Range]                               | [C](src/201.c)     |
@@ -211,6 +212,7 @@ Compile **C++** files using command:
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Count Primes]: https://leetcode.com/problems/count-primes/
 [Remove Linked List Elements]: https://leetcode.com/problems/remove-linked-list-elements/
 [Happy Number]: https://leetcode.com/problems/happy-number/
 [Bitwise AND of Numbers Range]: https://leetcode.com/problems/bitwise-and-of-numbers-range/
