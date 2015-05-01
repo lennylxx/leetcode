@@ -19,6 +19,7 @@ Compile **C++** files using command:
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 205 | [Isomorphic Strings]                                         | [C](src/205.c)     |
 | 204 | [Count Primes]                                               | [C](src/204.c)     |
 | 203 | [Remove Linked List Elements]                                | [C](src/203.c)     |
 | 202 | [Happy Number]                                               | [C](src/202.c)     |
@@ -212,6 +213,7 @@ Compile **C++** files using command:
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Isomorphic Strings]: https://leetcode.com/problems/isomorphic-strings/
 [Count Primes]: https://leetcode.com/problems/count-primes/
 [Remove Linked List Elements]: https://leetcode.com/problems/remove-linked-list-elements/
 [Happy Number]: https://leetcode.com/problems/happy-number/
