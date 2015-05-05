@@ -19,6 +19,7 @@ Compile **C++** files using command:
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 206 | [Reverse Linked List]                                        | [C](src/206.c)     |
 | 205 | [Isomorphic Strings]                                         | [C](src/205.c)     |
 | 204 | [Count Primes]                                               | [C](src/204.c)     |
 | 203 | [Remove Linked List Elements]                                | [C](src/203.c)     |
@@ -213,6 +214,7 @@ Compile **C++** files using command:
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Reverse Linked List]: https://leetcode.com/problems/reverse-linked-list/
 [Isomorphic Strings]: https://leetcode.com/problems/isomorphic-strings/
 [Count Primes]: https://leetcode.com/problems/count-primes/
 [Remove Linked List Elements]: https://leetcode.com/problems/remove-linked-list-elements/
