@@ -14,8 +14,8 @@ struct ListNode* reverseList_1(struct ListNode *head) {
     struct ListNode *new_head, *new_tail;
 
     new_head = reverseList_1(head->next);
-    new_tail = head->next;  /* new_tail maybe NULL here, so we add the second */
-                            /* if statement. */
+    new_tail = head->next; /* new_tail may be NULL here, so we add the second */
+                           /* if statement. */
     new_tail->next = head;                  
     head->next = NULL;
 
