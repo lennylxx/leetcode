@@ -121,7 +121,7 @@ Compile **C++** files using command:
 | 91  | [Decode Ways]                                                | [C](src/91.c)      |
 | 90  | [Subsets II]                                                 |                    |
 | 89  | [Gray Code]                                                  |                    |
-| 88  | [Merge Sorted Array]                                         |                    |
+| 88  | [Merge Sorted Array]                                         | [C](src/88.c)      |
 | 87  | [Scramble String]                                            |                    |
 | 86  | [Partition List]                                             |                    |
 | 85  | [Maximal Rectangle]                                          |                    |
