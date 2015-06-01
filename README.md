@@ -19,6 +19,20 @@ Compile **C++** files using command:
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 220 | [Contains Duplicate III]                                     |                    |
+| 219 | [Contains Duplicate II]                                      |                    |
+| 218 | [The Skyline Problem]                                        |                    |
+| 217 | [Contains Duplicate]                                         |                    |
+| 216 | [Combination Sum III]                                        |                    |
+| 215 | [Kth Largest Element in an Array]                            |                    |
+| 214 | [Shortest Palindrome]                                        |                    |
+| 213 | [House Robber II]                                            |                    |
+| 212 | [Word Search II]                                             |                    |
+| 211 | [Add and Search Word - Data structure design]                |                    |
+| 210 | [Course Schedule II]                                         |                    |
+| 209 | [Minimum Size Subarray Sum]                                  |                    |
+| 208 | [Implement Trie (Prefix Tree)]                               |                    |
+| 207 | [Course Schedule]                                            |                    |
 | 206 | [Reverse Linked List]                                        | [C](src/206.c)     |
 | 205 | [Isomorphic Strings]                                         | [C](src/205.c)     |
 | 204 | [Count Primes]                                               | [C](src/204.c)     |
@@ -214,6 +228,20 @@ Compile **C++** files using command:
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Contains Duplicate III]: https://leetcode.com/problems/contains-duplicate-iii/
+[Contains Duplicate II]: https://leetcode.com/problems/contains-duplicate-ii/
+[The Skyline Problem]: https://leetcode.com/problems/the-skyline-problem/
+[Contains Duplicate]: https://leetcode.com/problems/contains-duplicate/
+[Combination Sum III]: https://leetcode.com/problems/combination-sum-iii/
+[Kth Largest Element in an Array]: https://leetcode.com/problems/kth-largest-element-in-an-array/
+[Shortest Palindrome]: https://leetcode.com/problems/shortest-palindrome/
+[House Robber II]: https://leetcode.com/problems/house-robber-ii/
+[Word Search II]: https://leetcode.com/problems/word-search-ii/
+[Add and Search Word - Data structure design]: https://leetcode.com/problems/add-and-search-word-data-structure-design/
+[Course Schedule II]: https://leetcode.com/problems/course-schedule-ii/
+[Minimum Size Subarray Sum]: https://leetcode.com/problems/minimum-size-subarray-sum/
+[Implement Trie (Prefix Tree)]: https://leetcode.com/problems/implement-trie-prefix-tree/
+[Course Schedule]: https://leetcode.com/problems/course-schedule/
 [Reverse Linked List]: https://leetcode.com/problems/reverse-linked-list/
 [Isomorphic Strings]: https://leetcode.com/problems/isomorphic-strings/
 [Count Primes]: https://leetcode.com/problems/count-primes/
