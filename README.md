@@ -22,7 +22,7 @@ Compile **C++** files using command:
 | 220 | [Contains Duplicate III]                                     |                    |
 | 219 | [Contains Duplicate II]                                      |                    |
 | 218 | [The Skyline Problem]                                        |                    |
-| 217 | [Contains Duplicate]                                         |                    |
+| 217 | [Contains Duplicate]                                         | [C](src/217.c)     |
 | 216 | [Combination Sum III]                                        |                    |
 | 215 | [Kth Largest Element in an Array]                            |                    |
 | 214 | [Shortest Palindrome]                                        |                    |
