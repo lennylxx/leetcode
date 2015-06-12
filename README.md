@@ -22,7 +22,7 @@ Compile **C++** files using command:
 | 226 | [Invert Binary Tree]                                         |                    |
 | 225 | [Implement Stack using Queues]                               |                    |
 | 224 | [Basic Calculator]                                           |                    |
-| 223 | [Rectangle Area]                                             |                    |
+| 223 | [Rectangle Area]                                             | [C](src/223.c)     |
 | 222 | [Count Complete Tree Nodes]                                  |                    |
 | 221 | [Maximal Square]                                             |                    |
 | 220 | [Contains Duplicate III]                                     |                    |
