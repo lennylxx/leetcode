@@ -19,7 +19,7 @@ Compile **C++** files using command:
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
-| 226 | [Invert Binary Tree]                                         |                    |
+| 226 | [Invert Binary Tree]                                         | [C](src/226.c)     |
 | 225 | [Implement Stack using Queues]                               |                    |
 | 224 | [Basic Calculator]                                           |                    |
 | 223 | [Rectangle Area]                                             | [C](src/223.c)     |
