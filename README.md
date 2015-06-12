@@ -19,6 +19,12 @@ Compile **C++** files using command:
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 226 | [Invert Binary Tree]                                         |                    |
+| 225 | [Implement Stack using Queues]                               |                    |
+| 224 | [Basic Calculator]                                           |                    |
+| 223 | [Rectangle Area]                                             |                    |
+| 222 | [Count Complete Tree Nodes]                                  |                    |
+| 221 | [Maximal Square]                                             |                    |
 | 220 | [Contains Duplicate III]                                     |                    |
 | 219 | [Contains Duplicate II]                                      |                    |
 | 218 | [The Skyline Problem]                                        |                    |
@@ -228,6 +234,12 @@ Compile **C++** files using command:
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Invert Binary Tree]: https://leetcode.com/problems/invert-binary-tree/
+[Implement Stack using Queues]: https://leetcode.com/problems/implement-stack-using-queues/
+[Basic Calculator]: https://leetcode.com/problems/basic-calculator/
+[Rectangle Area]: https://leetcode.com/problems/rectangle-area/
+[Count Complete Tree Nodes]: https://leetcode.com/problems/count-complete-tree-nodes/
+[Maximal Square]: https://leetcode.com/problems/maximal-square/
 [Contains Duplicate III]: https://leetcode.com/problems/contains-duplicate-iii/
 [Contains Duplicate II]: https://leetcode.com/problems/contains-duplicate-ii/
 [The Skyline Problem]: https://leetcode.com/problems/the-skyline-problem/
