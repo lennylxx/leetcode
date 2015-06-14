@@ -20,7 +20,7 @@ Compile **C++** files using command:
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
 | 226 | [Invert Binary Tree]                                         | [C](src/226.c)     |
-| 225 | [Implement Stack using Queues]                               |                    |
+| 225 | [Implement Stack using Queues]                               | [C](src/225.c)     |
 | 224 | [Basic Calculator]                                           | [C](src/224.c)     |
 | 223 | [Rectangle Area]                                             | [C](src/223.c)     |
 | 222 | [Count Complete Tree Nodes]                                  |                    |
