@@ -23,7 +23,7 @@ Compile **C++** files using command:
 | 225 | [Implement Stack using Queues]                               | [C](src/225.c)     |
 | 224 | [Basic Calculator]                                           | [C](src/224.c)     |
 | 223 | [Rectangle Area]                                             | [C](src/223.c)     |
-| 222 | [Count Complete Tree Nodes]                                  |                    |
+| 222 | [Count Complete Tree Nodes]                                  | [C](src/222.c)     |
 | 221 | [Maximal Square]                                             |                    |
 | 220 | [Contains Duplicate III]                                     |                    |
 | 219 | [Contains Duplicate II]                                      |                    |
