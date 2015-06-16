@@ -37,7 +37,7 @@ Compile **C++** files using command:
 | 211 | [Add and Search Word - Data structure design]                |                    |
 | 210 | [Course Schedule II]                                         |                    |
 | 209 | [Minimum Size Subarray Sum]                                  |                    |
-| 208 | [Implement Trie (Prefix Tree)]                               |                    |
+| 208 | [Implement Trie (Prefix Tree)]                               | [C](src/208.c)     |
 | 207 | [Course Schedule]                                            |                    |
 | 206 | [Reverse Linked List]                                        | [C](src/206.c)     |
 | 205 | [Isomorphic Strings]                                         | [C](src/205.c)     |
