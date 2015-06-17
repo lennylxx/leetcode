@@ -16,8 +16,8 @@ struct TrieNode {
 
 /** Initialize your data structure here. */
 struct TrieNode* trieCreate() {
-    struct TrieNode *dummy = (struct TrieNode *)malloc(sizeof(struct TrieNode));
-    dummy->val = '\0';
+    struct TrieNode* dummy = (struct TrieNode *)malloc(sizeof(struct TrieNode));
+    dummy->val = 0;
     dummy->child = NULL;
     dummy->sibling = NULL;
 
@@ -32,8 +32,8 @@ struct TrieNode* trieCreate() {
 void insert(struct TrieNode* root, char* word) {
     if (root == NULL || word == NULL) return;
 
-    struct TrieNode **p = &(root->child);
-    struct TrieNode *new_node = NULL;
+    struct TrieNode** p = &(root->child);
+    struct TrieNode* new_node = NULL;
 
     while (*word != '\0') {
         /* get common prefix */
@@ -47,10 +47,8 @@ void insert(struct TrieNode* root, char* word) {
             }
         }
 
-        new_node = (struct TrieNode *)malloc(sizeof(struct TrieNode));
+        new_node = trieCreate();
         new_node->val = *word;
-        new_node->child = NULL;
-        new_node->sibling = NULL;
 
         *p = new_node;
         p = &((*p)->child); /* move forward */
@@ -58,10 +56,8 @@ void insert(struct TrieNode* root, char* word) {
     }
 
     /* put the EOL character in the tree */
-    new_node = (struct TrieNode *)malloc(sizeof(struct TrieNode));
+    new_node = trieCreate();
     new_node->val = '\0';
-    new_node->child = NULL;
-    new_node->sibling = NULL;
 
     if (*p) {
         p = &((*p)->child);
@@ -78,7 +74,7 @@ bool search(struct TrieNode* root, char* word) {
 
     if (root->child == NULL) return false;
 
-    struct TrieNode *p = root->child;
+    struct TrieNode* p = root->child;
 
     while (p && *word != '\0') {
         if (p->val == *word) {
@@ -106,7 +102,7 @@ bool startsWith(struct TrieNode* root, char* prefix) {
 
     if (root->child == NULL) return false;
 
-    struct TrieNode *p = root->child;
+    struct TrieNode* p = root->child;
 
     while (p && *prefix != '\0') {
         if (p->val == *prefix) {
@@ -146,7 +142,7 @@ void insert_r(struct TrieNode* root, char* word) {
         }
         else {
             /* get most right sibling */
-            struct TrieNode **p = &(root->child->sibling);
+            struct TrieNode** p = &(root->child->sibling);
             while (*p) {
                 if ((*p)->val == *word) {
                     if (*word == '\0') return;
@@ -156,11 +152,8 @@ void insert_r(struct TrieNode* root, char* word) {
                 p = &((*p)->sibling);
             }
 
-            struct TrieNode *new_node
-                = (struct TrieNode *)malloc(sizeof(struct TrieNode));
+            struct TrieNode* new_node = trieCreate();
             new_node->val = *word;
-            new_node->child = NULL;
-            new_node->sibling = NULL;
 
             *p = new_node;
 
@@ -171,11 +164,8 @@ void insert_r(struct TrieNode* root, char* word) {
     else {
         /* if the child is NULL, the sibling must be NULL too */
         /* so we don't need to check that.                    */
-        struct TrieNode *new_node
-            = (struct TrieNode *)malloc(sizeof(struct TrieNode));
+        struct TrieNode* new_node = trieCreate();
         new_node->val = *word;
-        new_node->child = NULL;
-        new_node->sibling = NULL;
 
         root->child = new_node;
         if (*word == '\0') return;
@@ -193,7 +183,7 @@ bool search_r(struct TrieNode* root, char* word) {
         else return search_r(root->child, word + 1);
     }
     else {
-        struct TrieNode *p = root->child->sibling;
+        struct TrieNode* p = root->child->sibling;
         while (p) {
             if (p->val == *word) {
                 if (*word == '\0') return true;
@@ -216,7 +206,7 @@ bool startsWith_r(struct TrieNode* root, char* prefix) {
         return startsWith_r(root->child, prefix + 1);
     }
     else {
-        struct TrieNode *p = root->child->sibling;
+        struct TrieNode* p = root->child->sibling;
         while (p) {
             if (p->val == *prefix) {
                 return startsWith_r(p, prefix + 1);
