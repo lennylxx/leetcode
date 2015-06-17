@@ -55,7 +55,7 @@ void insert(struct TrieNode* root, char* word) {
         word++;
     }
 
-    /* put the EOL character in the tree */
+    /* put the null character in the tree */
     new_node = trieCreate();
     new_node->val = '\0';
 
@@ -86,7 +86,7 @@ bool search(struct TrieNode* root, char* word) {
         }
     }
 
-    /* check if we have an EOL in the siblings */
+    /* check if we have a null in the siblings */
     while (p) {
         if (p->val == '\0') return true;
         p = p->sibling;
