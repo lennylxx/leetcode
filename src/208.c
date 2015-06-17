@@ -1,12 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+#include <string.h>
 #include <assert.h>
 
 /* I implement Trie using left-child right-sibling binary tree.              */
 /* https://en.wikipedia.org/wiki/Left-child_right-sibling_binary_tree        */
 /* It's not an easy way, the code may not be so elegant.                     */
 /* We can use an array each node to store the children pointers in easy way. */
+
+/* use 1 or 0 to alternate method */
+#define LCRS 1
+
+#if LCRS
 
 struct TrieNode {
     char val;
@@ -217,14 +223,97 @@ bool startsWith_r(struct TrieNode* root, char* prefix) {
     }
 }
 
+#else
+
+struct TrieNode {
+    bool end;
+    struct TrieNode *next[26];   /* a-z */
+};
+
+struct TrieNode* trieCreate() {
+    struct TrieNode *dummy = (struct TrieNode *)malloc(sizeof(struct TrieNode));
+    dummy->end = false;
+    memset(dummy->next, 0, sizeof(dummy->next));
+    return dummy;
+}
+
+void insert(struct TrieNode* root, char* word) {
+    if (root == NULL || word == NULL) return;
+
+    struct TrieNode *p = root;
+    while (*word != '\0') {
+        if (p->next[*word - 'a'] == NULL) {
+            p->next[*word - 'a'] = trieCreate();
+        }
+        p = p->next[*word - 'a'];
+        word++;
+    }
+    p->end = true;
+}
+
+bool search(struct TrieNode* root, char* word) {
+    if (root == NULL || word == NULL) return false;
+
+    struct TrieNode *p = root;
+    while (*word != '\0') {
+        if (p->next[*word - 'a'] == NULL) {
+            return false;
+        }
+        else {
+            p = p->next[*word - 'a'];
+        }
+        word++;
+    }
+
+    if (p->end) return true;
+    else return false;
+}
+
+bool startsWith(struct TrieNode* root, char* prefix) {
+    if (root == NULL || prefix == NULL) return false;
+
+    struct TrieNode *p = root;
+    while (*prefix != '\0') {
+        if (p->next[*prefix - 'a'] == NULL) {
+            return false;
+        }
+        else {
+            p = p->next[*prefix - 'a'];
+        }
+        prefix++;
+    }
+
+    return true;
+}
+
+void trieFree(struct TrieNode* root) {
+    if (root == NULL) return;
+
+    int i;
+    for (i = 0; i < 26; i++) {
+        trieFree(root->next[i]);
+    }
+    free(root);
+}
+
+#endif
+
 int main() {
+
+/* recursive method switch */
+#define RECURSIVE 0
+#if LCRS && RECURSIVE
+#define insert insert_r
+#define search search_r
+#define startsWith startsWith_r
+#endif
 
     struct TrieNode* node = trieCreate();
 
     assert(search(node, "some") == false);
     insert(node, "s");
     assert(search(node, "some") == false);
-    assert(search(node, "s0") == false);
+    assert(search(node, "s") == true);
 
     insert(node, "some");
     assert(search(node, "some") == true);
