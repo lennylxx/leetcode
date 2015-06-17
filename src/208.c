@@ -126,7 +126,7 @@ bool startsWith(struct TrieNode* root, char* prefix) {
 void trieFree(struct TrieNode* root) {
     if (root == NULL) return;
 
-    /* Post order traversal ( */
+    /* Post order traversal (recursive) */
     trieFree(root->child);
     trieFree(root->sibling);
     free(root);
