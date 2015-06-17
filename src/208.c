@@ -65,13 +65,9 @@ void insert(struct TrieNode* root, char* word) {
     new_node = trieCreate();
     new_node->val = '\0';
 
-    if (*p) {
-        p = &((*p)->child);
-        *p = new_node;
-    }
-    else {
-        *p = new_node;
-    }
+    /* no need to check *p
+     * 'cause p is new_node's child, *p always equals to NULL */
+    *p = new_node;
 }
 
 /** Returns if the word is in the trie. */
