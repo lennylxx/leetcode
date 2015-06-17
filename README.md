@@ -17,6 +17,11 @@ Compile **C++** files using command:
 
     g++ -std=c++11 -Wall src/bar.cpp -o bar
 
+**OR**
+
+You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows).
+
+
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
 | 226 | [Invert Binary Tree]                                         | [C](src/226.c)     |
