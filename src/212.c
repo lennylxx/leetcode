@@ -3,120 +3,6 @@
 #include <stdbool.h>
 #include <string.h>
 
-struct TrieNode {
-    char val;
-    struct TrieNode *child;   /* most left child */
-    struct TrieNode *sibling; /* brothers of the current child*/
-};
-
-struct TrieNode* trieCreate() {
-    struct TrieNode *dummy = (struct TrieNode *)malloc(sizeof(struct TrieNode));
-    dummy->val = '\0';
-    dummy->child = NULL;
-    dummy->sibling = NULL;
-
-    return dummy;
-}
-
-void insert(struct TrieNode* root, char* word) {
-    if (root == NULL || word == NULL) return;
-
-    struct TrieNode **p = &(root->child);
-    struct TrieNode *new_node = NULL;
-
-    while (*word != '\0') {
-        /* get common prefix */
-        while (*p) {
-            if ((*p)->val == *word) {
-                p = &((*p)->child);
-                word++;
-            }
-            else {
-                p = &((*p)->sibling);
-            }
-        }
-
-        new_node = (struct TrieNode *)malloc(sizeof(struct TrieNode));
-        new_node->val = *word;
-        new_node->child = NULL;
-        new_node->sibling = NULL;
-
-        *p = new_node;
-        p = &((*p)->child); /* move forward */
-        word++;
-    }
-
-    /* put the EOL character in the tree */
-    new_node = (struct TrieNode *)malloc(sizeof(struct TrieNode));
-    new_node->val = '\0';
-    new_node->child = NULL;
-    new_node->sibling = NULL;
-
-    if (*p) {
-        p = &((*p)->child);
-        *p = new_node;
-    }
-    else {
-        *p = new_node;
-    }
-}
-
-bool search(struct TrieNode* root, char* word) {
-    if (root == NULL || word == NULL) return false;
-
-    if (root->child == NULL) return false;
-
-    struct TrieNode *p = root->child;
-
-    while (p && *word != '\0') {
-        if (p->val == *word) {
-            p = p->child;
-            word++;
-        }
-        else {
-            p = p->sibling;
-        }
-    }
-
-    /* check if we have an EOL in the siblings */
-    while (p) {
-        if (p->val == '\0') return true;
-        p = p->sibling;
-    }
-
-    return false;
-}
-
-bool startsWith(struct TrieNode* root, char* prefix) {
-    if (root == NULL || prefix == NULL) return false;
-
-    if (root->child == NULL) return false;
-
-    struct TrieNode *p = root->child;
-
-    while (p && *prefix != '\0') {
-        if (p->val == *prefix) {
-            p = p->child;
-            prefix++;
-        }
-        else {
-            p = p->sibling;
-        }
-    }
-
-    if (p && *prefix == '\0') return true;
-    else return false;
-}
-
-void trieFree(struct TrieNode* root) {
-    if (root == NULL) return;
-
-    /* Post order traversal (recursive) */
-    trieFree(root->child);
-    trieFree(root->sibling);
-    free(root);
-}
-
 #define CALLOC2D(array, type, rowSize, colSize)                      \
     do {                                                             \
         array = (type **)calloc(rowSize, sizeof(type *));            \
@@ -142,39 +28,67 @@ void trieFree(struct TrieNode* root) {
         }                                                            \
     } while (0)
 
-/* 52 ms, a bit slow */
+struct TrieNode {
+    bool end;
+    struct TrieNode *next[26]; /* a-z */
+};
+
+struct TrieNode* trieCreate() {
+    struct TrieNode* dummy = (struct TrieNode *)malloc(sizeof(struct TrieNode));
+    dummy->end = false;
+    memset(dummy->next, 0, sizeof(dummy->next));
+    return dummy;
+}
+
+void insert(struct TrieNode* root, char* word) {
+    if (root == NULL || word == NULL) return;
+
+    struct TrieNode* p = root;
+    while (*word != '\0') {
+        if (p->next[*word - 'a'] == NULL) {
+            p->next[*word - 'a'] = trieCreate();
+        }
+        p = p->next[*word - 'a'];
+        word++;
+    }
+    p->end = true;
+}
+
+void trieFree(struct TrieNode* root) {
+    if (root == NULL) return;
+
+    int i;
+    for (i = 0; i < 26; i++) {
+        trieFree(root->next[i]);
+    }
+    free(root);
+}
+
+/* 44 ms, a bit slow */
 void dfs(char** board, int boardRowSize, int boardColSize,
          bool** visited, int i, int j,
          char* word, int depth,
-         struct TrieNode* trie,
+         struct TrieNode* node,
          char **ans, int* returnSize) {
 
     if (i >= 0 && i < boardRowSize && j >= 0 && j < boardColSize && !visited[i][j]) {
         word[depth] = board[i][j];
-        word[depth + 1] = '\0';
         visited[i][j] = true;
-        if (startsWith(trie, word)) {
-            if (search(trie, word)) {
-                int k;
-                bool flag = false;
-                for (k = 0; k < *returnSize; k++) {
-                    if (strcmp(ans[k], word) == 0) {
-                        flag = true;
-                        break;
-                    }
-                }
-                if (!flag) strcpy(ans[(*returnSize)++], word);
+
+        struct TrieNode* next_node = node->next[board[i][j] - 'a'];
+        if (next_node) {
+            if (next_node->end) {
+                strcpy(ans[(*returnSize)++], word);
+                next_node->end = false;
             }
             depth++;
-            dfs(board, boardRowSize, boardColSize, visited, i, j - 1, word, depth, trie, ans, returnSize); /* left */
-            dfs(board, boardRowSize, boardColSize, visited, i, j + 1, word, depth, trie, ans, returnSize); /* right */
-            dfs(board, boardRowSize, boardColSize, visited, i - 1, j, word, depth, trie, ans, returnSize); /* up */
-            dfs(board, boardRowSize, boardColSize, visited, i + 1, j, word, depth, trie, ans, returnSize); /* down */
+            dfs(board, boardRowSize, boardColSize, visited, i, j - 1, word, depth, next_node, ans, returnSize); /* left */
+            dfs(board, boardRowSize, boardColSize, visited, i, j + 1, word, depth, next_node, ans, returnSize); /* right */
+            dfs(board, boardRowSize, boardColSize, visited, i - 1, j, word, depth, next_node, ans, returnSize); /* up */
+            dfs(board, boardRowSize, boardColSize, visited, i + 1, j, word, depth, next_node, ans, returnSize); /* down */
+        }
 
-        }
-        else {
-            word[depth] = 0;
-        }
+        word[depth] = 0;
         visited[i][j] = false; /* restore */
     }
 }
@@ -204,12 +118,7 @@ char** findWords(char** board, int boardRowSize, int boardColSize, char** words,
 
     for (i = 0; i < boardRowSize; i++) {
         for (j = 0; j < boardColSize; j++) {
-            buf[0] = board[i][j];
-            if (startsWith(trie, buf)) {
-                dfs(board, boardRowSize, boardColSize, visited, i, j, buf, 0, trie, ans, returnSize);
-                CLEAR2D(visited, boardRowSize, boardColSize);
-            }
-            memset(buf, 0, bufSize);
+            dfs(board, boardRowSize, boardColSize, visited, i, j, buf, 0, trie, ans, returnSize);
         }
     }
 
