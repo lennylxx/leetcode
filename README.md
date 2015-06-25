@@ -31,7 +31,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 222 | [Count Complete Tree Nodes]                                  | [C](src/222.c)     |
 | 221 | [Maximal Square]                                             |                    |
 | 220 | [Contains Duplicate III]                                     |                    |
-| 219 | [Contains Duplicate II]                                      |                    |
+| 219 | [Contains Duplicate II]                                      | [C](src/219.c)     |
 | 218 | [The Skyline Problem]                                        |                    |
 | 217 | [Contains Duplicate]                                         | [C](src/217.c)     |
 | 216 | [Combination Sum III]                                        |                    |
