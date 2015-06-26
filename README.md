@@ -133,7 +133,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 104 | [Maximum Depth of Binary Tree]                               | [C](src/104.c)     |
 | 103 | [Binary Tree Zigzag Level Order Traversal]                   | [C++](src/103.cpp) |
 | 102 | [Binary Tree Level Order Traversal]                          | [C++](src/102.cpp) |
-| 101 | [Symmetric Tree]                                             |                    |
+| 101 | [Symmetric Tree]                                             | [C](src/101.c)     |
 | 100 | [Same Tree]                                                  | [C](src/100.c)     |
 | 99  | [Recover Binary Search Tree]                                 |                    |
 | 98  | [Validate Binary Search Tree]                                | [C](src/98.c)      |
