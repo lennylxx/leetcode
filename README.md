@@ -24,6 +24,9 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 229 | [Majority Element II]                                        |                    |
+| 228 | [Summary Ranges]                                             |                    |
+| 227 | [Basic Calculator II]                                        |                    |
 | 226 | [Invert Binary Tree]                                         | [C](src/226.c)     |
 | 225 | [Implement Stack using Queues]                               | [C](src/225.c)     |
 | 224 | [Basic Calculator]                                           | [C](src/224.c)     |
@@ -239,6 +242,9 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Majority Element II]: https://leetcode.com/problems/majority-element-ii/
+[Summary Ranges]: https://leetcode.com/problems/summary-ranges/
+[Basic Calculator II]: https://leetcode.com/problems/basic-calculator-ii/
 [Invert Binary Tree]: https://leetcode.com/problems/invert-binary-tree/
 [Implement Stack using Queues]: https://leetcode.com/problems/implement-stack-using-queues/
 [Basic Calculator]: https://leetcode.com/problems/basic-calculator/
