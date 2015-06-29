@@ -25,7 +25,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
 | 229 | [Majority Element II]                                        |                    |
-| 228 | [Summary Ranges]                                             |                    |
+| 228 | [Summary Ranges]                                             | [C](src/228.c)     |
 | 227 | [Basic Calculator II]                                        |                    |
 | 226 | [Invert Binary Tree]                                         | [C](src/226.c)     |
 | 225 | [Implement Stack using Queues]                               | [C](src/225.c)     |
