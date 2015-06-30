@@ -100,6 +100,19 @@ struct TreeNode* invertTree(struct TreeNode* root) {
     return root;
 }
 
+/* recursive method */
+struct TreeNode* invertTree_r(struct TreeNode* root) {
+    if (root == NULL) return NULL;
+
+    struct TreeNode *t = root->left;
+    root->left = root->right;;
+    root->right = t;
+
+    invertTree_r(root->left);
+    invertTree_r(root->right);
+    return root;
+}
+
 int main() {
 
     struct TreeNode *root = (struct TreeNode *)calloc(5, sizeof(struct TreeNode));
