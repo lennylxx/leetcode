@@ -38,7 +38,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 218 | [The Skyline Problem]                                        |                    |
 | 217 | [Contains Duplicate]                                         | [C](src/217.c)     |
 | 216 | [Combination Sum III]                                        |                    |
-| 215 | [Kth Largest Element in an Array]                            |                    |
+| 215 | [Kth Largest Element in an Array]                            | [C](src/215.c)     |
 | 214 | [Shortest Palindrome]                                        |                    |
 | 213 | [House Robber II]                                            |                    |
 | 212 | [Word Search II]                                             | [C](src/212.c)     |
