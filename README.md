@@ -42,7 +42,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 214 | [Shortest Palindrome]                                        |                    |
 | 213 | [House Robber II]                                            |                    |
 | 212 | [Word Search II]                                             | [C](src/212.c)     |
-| 211 | [Add and Search Word - Data structure design]                |                    |
+| 211 | [Add and Search Word - Data structure design]                | [C](src/211.c)     |
 | 210 | [Course Schedule II]                                         |                    |
 | 209 | [Minimum Size Subarray Sum]                                  |                    |
 | 208 | [Implement Trie (Prefix Tree)]                               | [C](src/208.c)     |
