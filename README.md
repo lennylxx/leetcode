@@ -131,7 +131,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 109 | [Convert Sorted List to Binary Search Tree]                  |                    |
 | 108 | [Convert Sorted Array to Binary Search Tree]                 |                    |
 | 107 | [Binary Tree Level Order Traversal II]                       | [C++](src/107.cpp) |
-| 106 | [Construct Binary Tree from Inorder and Postorder Traversal] |                    |
+| 106 | [Construct Binary Tree from Inorder and Postorder Traversal] | [C](src/106.c)     |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal]  | [C](src/105.c)     |
 | 104 | [Maximum Depth of Binary Tree]                               | [C](src/104.c)     |
 | 103 | [Binary Tree Zigzag Level Order Traversal]                   | [C++](src/103.cpp) |
