@@ -24,6 +24,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 230 | [Kth Smallest Element in a BST]                              | [C](src/230.c)     |
 | 229 | [Majority Element II]                                        |                    |
 | 228 | [Summary Ranges]                                             | [C](src/228.c)     |
 | 227 | [Basic Calculator II]                                        |                    |
@@ -242,6 +243,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Kth Smallest Element in a BST]: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 [Majority Element II]: https://leetcode.com/problems/majority-element-ii/
 [Summary Ranges]: https://leetcode.com/problems/summary-ranges/
 [Basic Calculator II]: https://leetcode.com/problems/basic-calculator-ii/
