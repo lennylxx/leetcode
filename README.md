@@ -218,7 +218,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 24  | [Swap Nodes in Pairs]                                        |                    |
 | 23  | [Merge k Sorted Lists]                                       |                    |
 | 22  | [Generate Parentheses]                                       |                    |
-| 21  | [Merge Two Sorted Lists]                                     |                    |
+| 21  | [Merge Two Sorted Lists]                                     | [C](src/21.c)      |
 | 20  | [Valid Parentheses]                                          | [C](src/20.c)      |
 | 19  | [Remove Nth Node From End of List]                           | [C](src/19.c)      |
 | 18  | [4Sum]                                                       |                    |
