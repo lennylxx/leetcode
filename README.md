@@ -178,7 +178,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 64  | [Minimum Path Sum]                                           | [C](src/64.c)      |
 | 63  | [Unique Paths II]                                            | [C](src/63.c)      |
 | 62  | [Unique Paths]                                               | [C](src/62.c)      |
-| 61  | [Rotate List]                                                |                    |
+| 61  | [Rotate List]                                                | [C](src/61.c)      |
 | 60  | [Permutation Sequence]                                       |                    |
 | 59  | [Spiral Matrix II]                                           |                    |
 | 58  | [Length of Last Word]                                        | [C](src/58.c)      |
