@@ -193,7 +193,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 49  | [Anagrams]                                                   |                    |
 | 48  | [Rotate Image]                                               | [C](src/48.c)      |
 | 47  | [Permutations II]                                            |                    |
-| 46  | [Permutations]                                               |                    |
+| 46  | [Permutations]                                               | [C](src/46.c)      |
 | 45  | [Jump Game II]                                               |                    |
 | 44  | [Wildcard Matching]                                          |                    |
 | 43  | [Multiply Strings]                                           |                    |
