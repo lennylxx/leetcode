@@ -211,7 +211,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 31  | [Next Permutation]                                           |                    |
 | 30  | [Substring with Concatenation of All Words]                  |                    |
 | 29  | [Divide Two Integers]                                        |                    |
-| 28  | [Implement strStr()]                                         |                    |
+| 28  | [Implement strStr()]                                         | [C](src/28.c)      |
 | 27  | [Remove Element]                                             | [C](src/27.c)      |
 | 26  | [Remove Duplicates from Sorted Array]                        | [C](src/26.c)      |
 | 25  | [Reverse Nodes in k-Group]                                   |                    |
