@@ -201,7 +201,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 41  | [First Missing Positive]                                     |                    |
 | 40  | [Combination Sum II]                                         |                    |
 | 39  | [Combination Sum]                                            |                    |
-| 38  | [Count and Say]                                              |                    |
+| 38  | [Count and Say]                                              | [C](src/38.c)      |
 | 37  | [Sudoku Solver]                                              |                    |
 | 36  | [Valid Sudoku]                                               | [C](src/36.c)      |
 | 35  | [Search Insert Position]                                     | [C](src/35.c)      |
