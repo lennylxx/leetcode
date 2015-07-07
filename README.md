@@ -175,7 +175,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 68  | [Text Justification]                                         |                    |
 | 67  | [Add Binary]                                                 | [C](src/67.c)      |
 | 66  | [Plus One]                                                   | [C](src/66.c)      |
-| 65  | [Valid Number]                                               |                    |
+| 65  | [Valid Number]                                               | [C](src/65.c)      |
 | 64  | [Minimum Path Sum]                                           | [C](src/64.c)      |
 | 63  | [Unique Paths II]                                            | [C](src/63.c)      |
 | 62  | [Unique Paths]                                               | [C](src/62.c)      |
