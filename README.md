@@ -24,6 +24,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 232 | [Implement Queue using Stacks]                               | [C](src/232.c)     |
 | 231 | [Power of Two]                                               | [C](src/231.c)     |
 | 230 | [Kth Smallest Element in a BST]                              | [C](src/230.c)     |
 | 229 | [Majority Element II]                                        |                    |
@@ -244,6 +245,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Implement Queue using Stacks]: https://leetcode.com/problems/implement-queue-using-stacks/
 [Power of Two]: https://leetcode.com/problems/power-of-two/
 [Kth Smallest Element in a BST]: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
 [Majority Element II]: https://leetcode.com/problems/majority-element-ii/
