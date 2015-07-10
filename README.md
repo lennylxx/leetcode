@@ -24,7 +24,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
-| 234 | [Palindrome Linked List]                                     |                    |
+| 234 | [Palindrome Linked List]                                     | [C](src/234.c)     |
 | 233 | [Number of Digit One]                                        |                    |
 | 232 | [Implement Queue using Stacks]                               | [C](src/232.c)     |
 | 231 | [Power of Two]                                               | [C](src/231.c)     |
