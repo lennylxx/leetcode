@@ -24,6 +24,8 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 234 | [Palindrome Linked List]                                     |                    |
+| 233 | [Number of Digit One]                                        |                    |
 | 232 | [Implement Queue using Stacks]                               | [C](src/232.c)     |
 | 231 | [Power of Two]                                               | [C](src/231.c)     |
 | 230 | [Kth Smallest Element in a BST]                              | [C](src/230.c)     |
@@ -245,6 +247,8 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Palindrome Linked List]: https://leetcode.com/problems/palindrome-linked-list/
+[Number of Digit One]: https://leetcode.com/problems/number-of-digit-one/
 [Implement Queue using Stacks]: https://leetcode.com/problems/implement-queue-using-stacks/
 [Power of Two]: https://leetcode.com/problems/power-of-two/
 [Kth Smallest Element in a BST]: https://leetcode.com/problems/kth-smallest-element-in-a-bst/
