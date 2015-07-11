@@ -24,6 +24,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 235 | [Lowest Common Ancestor of a Binary Search Tree]             | [C](src/235.c)     |
 | 234 | [Palindrome Linked List]                                     | [C](src/234.c)     |
 | 233 | [Number of Digit One]                                        |                    |
 | 232 | [Implement Queue using Stacks]                               | [C](src/232.c)     |
@@ -247,6 +248,7 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Lowest Common Ancestor of a Binary Search Tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 [Palindrome Linked List]: https://leetcode.com/problems/palindrome-linked-list/
 [Number of Digit One]: https://leetcode.com/problems/number-of-digit-one/
 [Implement Queue using Stacks]: https://leetcode.com/problems/implement-queue-using-stacks/
