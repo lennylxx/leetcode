@@ -24,6 +24,8 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 237 | [Delete Node in a Linked List]                               | [C](src/237.c)     |
+| 236 | [Lowest Common Ancestor of a Binary Tree]                    |                    |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree]             | [C](src/235.c)     |
 | 234 | [Palindrome Linked List]                                     | [C](src/234.c)     |
 | 233 | [Number of Digit One]                                        |                    |
@@ -248,6 +250,8 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Delete Node in a Linked List]: https://leetcode.com/problems/delete-node-in-a-linked-list/
+[Lowest Common Ancestor of a Binary Tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 [Lowest Common Ancestor of a Binary Search Tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 [Palindrome Linked List]: https://leetcode.com/problems/palindrome-linked-list/
 [Number of Digit One]: https://leetcode.com/problems/number-of-digit-one/
