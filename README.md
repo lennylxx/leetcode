@@ -24,6 +24,11 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 242 | [Valid Anagram]                                              | [C](src/242.c)     |
+| 241 | [Different Ways to Add Parentheses]                          |                    |
+| 240 | [Search a 2D Matrix II]                                      |                    |
+| 239 | [Sliding Window Maximum]                                     |                    |
+| 238 | [Product of Array Except Self]                               |                    |
 | 237 | [Delete Node in a Linked List]                               | [C](src/237.c)     |
 | 236 | [Lowest Common Ancestor of a Binary Tree]                    |                    |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree]             | [C](src/235.c)     |
@@ -250,6 +255,11 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Valid Anagram]: https://leetcode.com/problems/valid-anagram/
+[Different Ways to Add Parentheses]: https://leetcode.com/problems/different-ways-to-add-parentheses/
+[Search a 2D Matrix II]: https://leetcode.com/problems/search-a-2d-matrix-ii/
+[Sliding Window Maximum]: https://leetcode.com/problems/sliding-window-maximum/
+[Product of Array Except Self]: https://leetcode.com/problems/product-of-array-except-self/
 [Delete Node in a Linked List]: https://leetcode.com/problems/delete-node-in-a-linked-list/
 [Lowest Common Ancestor of a Binary Tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 [Lowest Common Ancestor of a Binary Search Tree]: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
