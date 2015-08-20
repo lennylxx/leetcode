@@ -31,7 +31,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 261 | [Graph Valid Tree]☢                                          |                    |
 | 260 | [Single Number III]                                          |                    |
 | 259 | [3Sum Smaller]☢                                              |                    |
-| 258 | [Add Digits]                                                 |                    |
+| 258 | [Add Digits]                                                 | [C](src/258.c)     |
 | 257 | [Binary Tree Paths]                                          |                    |
 | 256 | [Paint House]☢                                               |                    |
 | 255 | [Verify Preorder Sequence in Binary Search Tree]☢            |                    |
