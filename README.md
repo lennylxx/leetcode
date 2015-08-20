@@ -27,7 +27,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | --- | ------------------------------------------------------------ | ------------------ |
 | 265 | [Paint House II]                                             |                    |
 | 264 | [Ugly Number II]                                             |                    |
-| 263 | [Ugly Number]                                                |                    |
+| 263 | [Ugly Number]                                                | [C](src/263.c)     |
 | 261 | [Graph Valid Tree]☢                                          |                    |
 | 260 | [Single Number III]                                          |                    |
 | 259 | [3Sum Smaller]☢                                              |                    |
