@@ -79,9 +79,11 @@ void queuePush(Queue *queue, int element) {
 void queuePop(Queue *queue) {
     if (queue == NULL) return;
 
-    while (!isEmpty(&queue->in)) {
-        int top = pop(&queue->in);
-        push(&queue->out, top);
+    if (isEmpty(&queue->out)) {
+        while (!isEmpty(&queue->in)) {
+            int top = pop(&queue->in);
+            push(&queue->out, top);
+        }
     }
 
     pop(&queue->out);
@@ -89,9 +91,11 @@ void queuePop(Queue *queue) {
 
 /* Get the front element */
 int queuePeek(Queue *queue) {
-    while (!isEmpty(&queue->in)) {
-        int top = pop(&queue->in);
-        push(&queue->out, top);
+    if (isEmpty(&queue->out)) {
+        while (!isEmpty(&queue->in)) {
+            int top = pop(&queue->in);
+            push(&queue->out, top);
+        }
     }
 
     if (!isEmpty(&queue->out) && queue->out.top) {
