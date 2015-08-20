@@ -21,9 +21,32 @@ Compile **C++** files using command:
 
 You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows).
 
+The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 265 | [Paint House II]                                             |                    |
+| 264 | [Ugly Number II]                                             |                    |
+| 263 | [Ugly Number]                                                |                    |
+| 261 | [Graph Valid Tree]☢                                          |                    |
+| 260 | [Single Number III]                                          |                    |
+| 259 | [3Sum Smaller]☢                                              |                    |
+| 258 | [Add Digits]                                                 |                    |
+| 257 | [Binary Tree Paths]                                          |                    |
+| 256 | [Paint House]☢                                               |                    |
+| 255 | [Verify Preorder Sequence in Binary Search Tree]☢            |                    |
+| 254 | [Factor Combinations]☢                                       |                    |
+| 253 | [Meeting Rooms II]☢                                          |                    |
+| 252 | [Meeting Rooms]☢                                             |                    |
+| 251 | [Flatten 2D Vector]☢                                         |                    |
+| 250 | [Count Univalue Subtrees]☢                                   |                    |
+| 249 | [Group Shifted Strings]☢                                     |                    |
+| 248 | [Strobogrammatic Number III]☢                                |                    |
+| 247 | [Strobogrammatic Number II]☢                                 |                    |
+| 246 | [Strobogrammatic Number]☢                                    |                    |
+| 245 | [Shortest Word Distance III]☢                                |                    |
+| 244 | [Shortest Word Distance II]☢                                 |                    |
+| 243 | [Shortest Word Distance]☢                                    |                    |
 | 242 | [Valid Anagram]                                              | [C](src/242.c)     |
 | 241 | [Different Ways to Add Parentheses]                          |                    |
 | 240 | [Search a 2D Matrix II]                                      |                    |
@@ -74,27 +97,27 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 | 189 | [Rotate Array]                                               | [C](src/189.c)     |
 | 188 | [Best Time to Buy and Sell Stock IV]                         |                    |
 | 187 | [Repeated DNA Sequences]                                     |                    |
-| 186 | [Reverse Words in a String II]                               |                    |
+| 186 | [Reverse Words in a String II]☢                              |                    |
 | 179 | [Largest Number]                                             |                    |
 | 174 | [Dungeon Game]                                               |                    |
 | 173 | [Binary Search Tree Iterator]                                |                    |
 | 172 | [Factorial Trailing Zeroes]                                  | [C](src/172.c)     |
 | 171 | [Excel Sheet Column Number]                                  | [C](src/171.c)     |
-| 170 | [Two Sum III - Data structure design]                        |                    |
+| 170 | [Two Sum III - Data structure design]☢                       |                    |
 | 169 | [Majority Element]                                           | [C](src/169.c)     |
 | 168 | [Excel Sheet Column Title]                                   | [C](src/168.c)     |
-| 167 | [Two Sum II - Input array is sorted]                         |                    |
+| 167 | [Two Sum II - Input array is sorted]☢                        |                    |
 | 166 | [Fraction to Recurring Decimal]                              |                    |
 | 165 | [Compare Version Numbers]                                    | [C](src/165.c)     |
 | 164 | [Maximum Gap]                                                | [C](src/164.c)     |
-| 163 | [Missing Ranges]                                             |                    |
+| 163 | [Missing Ranges]☢                                            |                    |
 | 162 | [Find Peak Element]                                          |                    |
-| 161 | [One Edit Distance]                                          |                    |
+| 161 | [One Edit Distance]☢                                         |                    |
 | 160 | [Intersection of Two Linked Lists]                           | [C](src/160.c)     |
-| 159 | [Longest Substring with At Most Two Distinct Characters]     |                    |
-| 158 | [Read N Characters Given Read4 II - Call multiple times]     |                    |
-| 157 | [Read N Characters Given Read4]                              |                    |
-| 156 | [Binary Tree Upside Down]                                    |                    |
+| 159 | [Longest Substring with At Most Two Distinct Characters]☢    |                    |
+| 158 | [Read N Characters Given Read4 II - Call multiple times]☢    |                    |
+| 157 | [Read N Characters Given Read4]☢                             |                    |
+| 156 | [Binary Tree Upside Down]☢                                   |                    |
 | 155 | [Min Stack]                                                  | [C](src/155.c)     |
 | 154 | [Find Minimum in Rotated Sorted Array II]                    |                    |
 | 153 | [Find Minimum in Rotated Sorted Array]                       |                    |
@@ -255,6 +278,28 @@ You can build all the files using `make` (Use MinGW GCC and GNU Make on Windows)
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Paint House II]: https://leetcode.com/problems/paint-house-ii/
+[Ugly Number II]: https://leetcode.com/problems/ugly-number-ii/
+[Ugly Number]: https://leetcode.com/problems/ugly-number/
+[Graph Valid Tree]: https://leetcode.com/problems/graph-valid-tree/
+[Single Number III]: https://leetcode.com/problems/single-number-iii/
+[3Sum Smaller]: https://leetcode.com/problems/3sum-smaller/
+[Add Digits]: https://leetcode.com/problems/add-digits/
+[Binary Tree Paths]: https://leetcode.com/problems/binary-tree-paths/
+[Paint House]: https://leetcode.com/problems/paint-house/
+[Verify Preorder Sequence in Binary Search Tree]: https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree/
+[Factor Combinations]: https://leetcode.com/problems/factor-combinations/
+[Meeting Rooms II]: https://leetcode.com/problems/meeting-rooms-ii/
+[Meeting Rooms]: https://leetcode.com/problems/meeting-rooms/
+[Flatten 2D Vector]: https://leetcode.com/problems/flatten-2d-vector/
+[Count Univalue Subtrees]: https://leetcode.com/problems/count-univalue-subtrees/
+[Group Shifted Strings]: https://leetcode.com/problems/group-shifted-strings/
+[Strobogrammatic Number III]: https://leetcode.com/problems/strobogrammatic-number-iii/
+[Strobogrammatic Number II]: https://leetcode.com/problems/strobogrammatic-number-ii/
+[Strobogrammatic Number]: https://leetcode.com/problems/strobogrammatic-number/
+[Shortest Word Distance III]: https://leetcode.com/problems/shortest-word-distance-iii/
+[Shortest Word Distance II]: https://leetcode.com/problems/shortest-word-distance-ii/
+[Shortest Word Distance]: https://leetcode.com/problems/shortest-word-distance/
 [Valid Anagram]: https://leetcode.com/problems/valid-anagram/
 [Different Ways to Add Parentheses]: https://leetcode.com/problems/different-ways-to-add-parentheses/
 [Search a 2D Matrix II]: https://leetcode.com/problems/search-a-2d-matrix-ii/
