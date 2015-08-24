@@ -25,7 +25,10 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
-| 265 | [Paint House II]                                             |                    |
+| 268 | [Missing Number]                                             | [C](src/268.c)     |
+| 267 | [Palindrome Permutation II] ☢                                |                    |
+| 266 | [Palindrome Permutation] ☢                                   |                    |
+| 265 | [Paint House II] ☢                                           |                    |
 | 264 | [Ugly Number II]                                             |                    |
 | 263 | [Ugly Number]                                                | [C](src/263.c)     |
 | 261 | [Graph Valid Tree] ☢                                         |                    |
@@ -278,6 +281,9 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Missing Number]: https://leetcode.com/problems/missing-number/
+[Palindrome Permutation II]:https://leetcode.com/problems/palindrome-permutation-ii/
+[Palindrome Permutation]: https://leetcode.com/problems/palindrome-permutation/
 [Paint House II]: https://leetcode.com/problems/paint-house-ii/
 [Ugly Number II]: https://leetcode.com/problems/ugly-number-ii/
 [Ugly Number]: https://leetcode.com/problems/ugly-number/
