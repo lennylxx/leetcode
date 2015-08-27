@@ -130,7 +130,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 149 | [Max Points on a Line]                                       |                    |
 | 148 | [Sort List]                                                  |                    |
 | 147 | [Insertion Sort List]                                        |                    |
-| 146 | [LRU Cache]                                                  |                    |
+| 146 | [LRU Cache]                                                  | [C](src/146.c)     |
 | 145 | [Binary Tree Postorder Traversal]                            | [C](src/145.c)     |
 | 144 | [Binary Tree Preorder Traversal]                             | [C++](src/144.cpp) |
 | 143 | [Reorder List]                                               |                    |
