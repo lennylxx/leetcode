@@ -222,7 +222,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 57  | [Insert Interval]                                            |                    |
 | 56  | [Merge Intervals]                                            |                    |
 | 55  | [Jump Game]                                                  |                    |
-| 54  | [Spiral Matrix]                                              |                    |
+| 54  | [Spiral Matrix]                                              | [C](src/54.c)      |
 | 53  | [Maximum Subarray]                                           | [C](src/53.c)      |
 | 52  | [N-Queens II]                                                | [C](src/52.c)      |
 | 51  | [N-Queens]                                                   | [C++](src/51.cpp)  |
