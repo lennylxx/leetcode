@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <stdbool.h>
 
+/*
 void permutation(int* nums, int numsSize,
                  bool* visited, int *pos,
                  int **ret, int *row, int col) {
@@ -22,6 +24,27 @@ void permutation(int* nums, int numsSize,
             ret[*row][pos[i]] = nums[i];
         (*row)++;
     }
+} 
+*/
+
+void swap(int *a, int *b) {
+    int c = *a;
+    *a = *b;
+    *b = c;
+}
+
+void permutation(int *nums, int l, int r, int **ret, int *row) {
+    if (l == r) {
+        memcpy(ret[(*row)++], nums, (r + 1) * sizeof(int));
+    }
+    else {
+        int i;
+        for (i = l; i <= r; i++) {
+            swap(nums + l, nums + i);
+            permutation(nums, l + 1, r, ret, row);
+            swap(nums + l, nums + i);
+        }
+    }
 }
 
 /**
@@ -37,31 +60,28 @@ int** permute(int* nums, int numsSize, int* returnSize) {
         (*returnSize) *= i;
     }
 
-    bool *visited = (bool *)calloc(numsSize, sizeof(bool));
-    int *pos = (int *)calloc(numsSize, sizeof(int));
-
     int **ret = (int **)calloc(*returnSize, sizeof(int *));
     for (i = 0; i < *returnSize; i++) {
         ret[i] = (int *)calloc(numsSize, sizeof(int));
     }
 
     int row = 0;
-    permutation(nums, numsSize, visited, pos, ret, &row, 0);
-
-    free(visited);
-    free(pos);
+    permutation(nums, 0, numsSize - 1, ret, &row);
 
     return ret;
 }
 
 int main() {
+    int numsSize = 3;
+    int *nums = (int *)malloc(numsSize * sizeof(int));
+    int i, j;
+    for (i = 0; i < numsSize; i++) {
+        nums[i] = i + 1;
+    }
 
-    int nums[] = { 1, 2, 3 };
-    int numsSize = sizeof(nums) / sizeof(nums[0]);
     int returnSize = 0;
     int **ret = permute(nums, numsSize, &returnSize);
 
-    int i, j;
     for (i = 0; i < returnSize; i++) {
         for (j = 0; j < numsSize; j++) {
             printf("%d ", ret[i][j]);
