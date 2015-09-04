@@ -217,7 +217,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 62  | [Unique Paths]                                               | [C](src/62.c)      |
 | 61  | [Rotate List]                                                | [C](src/61.c)      |
 | 60  | [Permutation Sequence]                                       |                    |
-| 59  | [Spiral Matrix II]                                           |                    |
+| 59  | [Spiral Matrix II]                                           | [C](src/59.c)      |
 | 58  | [Length of Last Word]                                        | [C](src/58.c)      |
 | 57  | [Insert Interval]                                            |                    |
 | 56  | [Merge Intervals]                                            |                    |
