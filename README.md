@@ -207,7 +207,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 72  | [Edit Distance]                                              | [C](src/72.c)      |
 | 71  | [Simplify Path]                                              |                    |
 | 70  | [Climbing Stairs]                                            | [C](src/70.c)      |
-| 69  | [Sqrt(x)]                                                    |                    |
+| 69  | [Sqrt(x)]                                                    | [C](src/69.c)      |
 | 68  | [Text Justification]                                         |                    |
 | 67  | [Add Binary]                                                 | [C](src/67.c)      |
 | 66  | [Plus One]                                                   | [C](src/66.c)      |
