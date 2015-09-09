@@ -202,7 +202,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 77  | [Combinations]                                               |                    |
 | 76  | [Minimum Window Substring]                                   |                    |
 | 75  | [Sort Colors]                                                |                    |
-| 74  | [Search a 2D Matrix]                                         |                    |
+| 74  | [Search a 2D Matrix]                                         | [C](src/74.c)      |
 | 73  | [Set Matrix Zeroes]                                          | [C](src/73.c)      |
 | 72  | [Edit Distance]                                              | [C](src/72.c)      |
 | 71  | [Simplify Path]                                              |                    |
