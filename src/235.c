@@ -36,6 +36,7 @@ struct TreeNode* lowestCommonAncestor(struct TreeNode* root, struct TreeNode* p,
         }
         else {
             lca = j;
+            break;
         }
 
 
