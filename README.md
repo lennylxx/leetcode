@@ -232,7 +232,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 47  | [Permutations II]                                            |                    |
 | 46  | [Permutations]                                               | [C](src/46.c)      |
 | 45  | [Jump Game II]                                               |                    |
-| 44  | [Wildcard Matching]                                          |                    |
+| 44  | [Wildcard Matching]                                          | [C](src/44.c)      |
 | 43  | [Multiply Strings]                                           |                    |
 | 42  | [Trapping Rain Water]                                        |                    |
 | 41  | [First Missing Positive]                                     |                    |
