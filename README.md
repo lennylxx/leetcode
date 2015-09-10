@@ -25,6 +25,18 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 280 | [Wiggle Sort] ☢                                              |                    |
+| 279 | [Perfect Squares]                                            | [C](src/279.c)     |
+| 278 | [First Bad Version]                                          |                    |
+| 277 | [Find the Celebrity] ☢                                       |                    |
+| 276 | [Paint Fence] ☢                                              |                    |
+| 275 | [H-Index II]                                                 |                    |
+| 274 | [H-Index]                                                    |                    |
+| 273 | [Integer to English Words]                                   |                    |
+| 272 | [Closest Binary Search Tree Value II] ☢                      |                    |
+| 271 | [Encode and Decode Strings] ☢                                |                    |
+| 270 | [Closest Binary Search Tree Value] ☢                         |                    |
+| 269 | [Alien Dictionary] ☢                                         |                    |
 | 268 | [Missing Number]                                             | [C](src/268.c)     |
 | 267 | [Palindrome Permutation II] ☢                                |                    |
 | 266 | [Palindrome Permutation] ☢                                   |                    |
@@ -281,6 +293,18 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Wiggle Sort]: https://leetcode.com/problems/wiggle-sort/
+[Perfect Squares]: https://leetcode.com/problems/perfect-squares/
+[First Bad Version]: https://leetcode.com/problems/first-bad-version/
+[Find the Celebrity]: https://leetcode.com/problems/find-the-celebrity/
+[Paint Fence]: https://leetcode.com/problems/paint-fence/
+[H-Index II]: https://leetcode.com/problems/h-index-ii/
+[H-Index]: https://leetcode.com/problems/h-index/
+[Integer to English Words]: https://leetcode.com/problems/integer-to-english-words/
+[Closest Binary Search Tree Value II]: https://leetcode.com/problems/closest-binary-search-tree-value-ii/
+[Encode and Decode Strings]: https://leetcode.com/problems/encode-and-decode-strings/
+[Closest Binary Search Tree Value]: https://leetcode.com/problems/closest-binary-search-tree-value/
+[Alien Dictionary]: https://leetcode.com/problems/alien-dictionary/
 [Missing Number]: https://leetcode.com/problems/missing-number/
 [Palindrome Permutation II]:https://leetcode.com/problems/palindrome-permutation-ii/
 [Palindrome Permutation]: https://leetcode.com/problems/palindrome-permutation/
