@@ -27,7 +27,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | --- | ------------------------------------------------------------ | ------------------ |
 | 280 | [Wiggle Sort] ☢                                              |                    |
 | 279 | [Perfect Squares]                                            | [C](src/279.c)     |
-| 278 | [First Bad Version]                                          |                    |
+| 278 | [First Bad Version]                                          | [C](src/278.c)     |
 | 277 | [Find the Celebrity] ☢                                       |                    |
 | 276 | [Paint Fence] ☢                                              |                    |
 | 275 | [H-Index II]                                                 |                    |
