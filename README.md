@@ -271,7 +271,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 20  | [Valid Parentheses]                                          | [C](src/20.c)      |
 | 19  | [Remove Nth Node From End of List]                           | [C](src/19.c)      |
 | 18  | [4Sum]                                                       |                    |
-| 17  | [Letter Combinations of a Phone Number]                      |                    |
+| 17  | [Letter Combinations of a Phone Number]                      | [C++](src/17.cpp)  |
 | 16  | [3Sum Closest]                                               |                    |
 | 15  | [3Sum]                                                       |                    |
 | 14  | [Longest Common Prefix]                                      | [C](src/14.c)      |
