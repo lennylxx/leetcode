@@ -254,7 +254,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 37  | [Sudoku Solver]                                              |                    |
 | 36  | [Valid Sudoku]                                               | [C](src/36.c)      |
 | 35  | [Search Insert Position]                                     | [C](src/35.c)      |
-| 34  | [Search for a Range]                                         |                    |
+| 34  | [Search for a Range]                                         | [C++](src/34.cpp)  |
 | 33  | [Search in Rotated Sorted Array]                             | [C](src/33.c)      |
 | 32  | [Longest Valid Parentheses]                                  |                    |
 | 31  | [Next Permutation]                                           |                    |
