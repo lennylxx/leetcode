@@ -88,7 +88,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 219 | [Contains Duplicate II]                                      | [C](src/219.c)     |
 | 218 | [The Skyline Problem]                                        |                    |
 | 217 | [Contains Duplicate]                                         | [C](src/217.c)     |
-| 216 | [Combination Sum III]                                        |                    |
+| 216 | [Combination Sum III]                                        | [C++](src/216.cpp) |
 | 215 | [Kth Largest Element in an Array]                            | [C](src/215.c)     |
 | 214 | [Shortest Palindrome]                                        |                    |
 | 213 | [House Robber II]                                            |                    |
