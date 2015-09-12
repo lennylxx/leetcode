@@ -249,7 +249,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 42  | [Trapping Rain Water]                                        |                    |
 | 41  | [First Missing Positive]                                     |                    |
 | 40  | [Combination Sum II]                                         |                    |
-| 39  | [Combination Sum]                                            |                    |
+| 39  | [Combination Sum]                                            | [C++](src/39.cpp)  |
 | 38  | [Count and Say]                                              | [C](src/38.c)      |
 | 37  | [Sudoku Solver]                                              |                    |
 | 36  | [Valid Sudoku]                                               | [C](src/36.c)      |
