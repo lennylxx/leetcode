@@ -44,7 +44,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 264 | [Ugly Number II]                                             |                    |
 | 263 | [Ugly Number]                                                | [C](src/263.c)     |
 | 261 | [Graph Valid Tree] ☢                                         |                    |
-| 260 | [Single Number III]                                          |                    |
+| 260 | [Single Number III]                                          | [C](src/260.c)     |
 | 259 | [3Sum Smaller] ☢                                             |                    |
 | 258 | [Add Digits]                                                 | [C](src/258.c)     |
 | 257 | [Binary Tree Paths]                                          | [C++](src/257.cpp) |
