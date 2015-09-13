@@ -140,7 +140,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 151 | [Reverse Words in a String]                                  | [C](src/151.c)     |
 | 150 | [Evaluate Reverse Polish Notation]                           | [C](src/150.c)     |
 | 149 | [Max Points on a Line]                                       |                    |
-| 148 | [Sort List]                                                  |                    |
+| 148 | [Sort List]                                                  | [C](src/148.c)     |
 | 147 | [Insertion Sort List]                                        |                    |
 | 146 | [LRU Cache]                                                  | [C](src/146.c)     |
 | 145 | [Binary Tree Postorder Traversal]                            | [C](src/145.c)     |
