@@ -195,7 +195,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 96  | [Unique Binary Search Trees]                                 | [C](src/96.c)      |
 | 95  | [Unique Binary Search Trees II]                              | [C++](src/95.cpp)  |
 | 94  | [Binary Tree Inorder Traversal]                              | [C](src/94.c)      |
-| 93  | [Restore IP Addresses]                                       |                    |
+| 93  | [Restore IP Addresses]                                       | [C++](src/93.cpp)  |
 | 92  | [Reverse Linked List II]                                     | [C](src/92.c)      |
 | 91  | [Decode Ways]                                                | [C](src/91.c)      |
 | 90  | [Subsets II]                                                 |                    |
