@@ -273,7 +273,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 18  | [4Sum]                                                       |                    |
 | 17  | [Letter Combinations of a Phone Number]                      | [C++](src/17.cpp)  |
 | 16  | [3Sum Closest]                                               |                    |
-| 15  | [3Sum]                                                       |                    |
+| 15  | [3Sum]                                                       | [C++](src/15/cpp)  |
 | 14  | [Longest Common Prefix]                                      | [C](src/14.c)      |
 | 13  | [Roman to Integer]                                           | [C](src/13.c)      |
 | 12  | [Integer to Roman]                                           | [C](src/12.c)      |
