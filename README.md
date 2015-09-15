@@ -175,7 +175,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 116 | [Populating Next Right Pointers in Each Node]                | [C](src/116.c)     |
 | 115 | [Distinct Subsequences]                                      |                    |
 | 114 | [Flatten Binary Tree to Linked List]                         |                    |
-| 113 | [Path Sum II]                                                |                    |
+| 113 | [Path Sum II]                                                | [C++](src/113.cpp) |
 | 112 | [Path Sum]                                                   | [C](src/112.c)     |
 | 111 | [Minimum Depth of Binary Tree]                               | [C](src/111.c)     |
 | 110 | [Balanced Binary Tree]                                       | [C](src/110.c)     |
