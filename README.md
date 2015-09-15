@@ -210,7 +210,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 81  | [Search in Rotated Sorted Array II]                          | [C](src/81.c)      |
 | 80  | [Remove Duplicates from Sorted Array II]                     |                    |
 | 79  | [Word Search]                                                |                    |
-| 78  | [Subsets]                                                    |                    |
+| 78  | [Subsets]                                                    | [C](src/78.cpp)    |
 | 77  | [Combinations]                                               | [C++](src/77.cpp)  |
 | 76  | [Minimum Window Substring]                                   |                    |
 | 75  | [Sort Colors]                                                |                    |

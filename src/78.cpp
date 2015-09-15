@@ -12,9 +12,6 @@ public:
 
         quicksort(nums, 0, n - 1);
 
-        for (int kk = 0; kk < n; kk++) {
-            printf("%d ", nums[kk]);
-        }
         vector<int> temp;
         for (unsigned int i = 0; i < (1 << n); i++) {
             unsigned int t = i;
