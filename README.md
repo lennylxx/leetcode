@@ -172,7 +172,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 119 | [Pascal's Triangle II]                                       | [C](src/119.c)     |
 | 118 | [Pascal's Triangle]                                          | [C](src/118.c)     |
 | 117 | [Populating Next Right Pointers in Each Node II]             |                    |
-| 116 | [Populating Next Right Pointers in Each Node]                |                    |
+| 116 | [Populating Next Right Pointers in Each Node]                | [C](src/116.c)     |
 | 115 | [Distinct Subsequences]                                      |                    |
 | 114 | [Flatten Binary Tree to Linked List]                         |                    |
 | 113 | [Path Sum II]                                                |                    |
