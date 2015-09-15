@@ -198,7 +198,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 93  | [Restore IP Addresses]                                       | [C++](src/93.cpp)  |
 | 92  | [Reverse Linked List II]                                     | [C](src/92.c)      |
 | 91  | [Decode Ways]                                                | [C](src/91.c)      |
-| 90  | [Subsets II]                                                 |                    |
+| 90  | [Subsets II]                                                 | [C++](src/90.cpp)  |
 | 89  | [Gray Code]                                                  |                    |
 | 88  | [Merge Sorted Array]                                         | [C](src/88.c)      |
 | 87  | [Scramble String]                                            |                    |
@@ -210,7 +210,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 81  | [Search in Rotated Sorted Array II]                          | [C](src/81.c)      |
 | 80  | [Remove Duplicates from Sorted Array II]                     |                    |
 | 79  | [Word Search]                                                |                    |
-| 78  | [Subsets]                                                    | [C](src/78.cpp)    |
+| 78  | [Subsets]                                                    | [C++](src/78.cpp)  |
 | 77  | [Combinations]                                               | [C++](src/77.cpp)  |
 | 76  | [Minimum Window Substring]                                   |                    |
 | 75  | [Sort Colors]                                                |                    |
