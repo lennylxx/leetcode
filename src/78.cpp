@@ -37,11 +37,11 @@ public:
         int j = end;
         int sentinal = nums[start];
         while (i < j) {
-            while (i < j && nums[j] > sentinal)
+            while (i < j && nums[j] >= sentinal)
                 j--;
 
             nums[i] = nums[j];
-            while (i < j && nums[i] < sentinal)
+            while (i < j && nums[i] <= sentinal)
                 i++;
 
             nums[j] = nums[i];
