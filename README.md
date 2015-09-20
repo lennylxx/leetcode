@@ -25,6 +25,9 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 283 | [Move Zeroes]                                                | [C](src/283.c)     |
+| 282 | [Expression Add Operators]                                   |                    |
+| 281 | [Zigzag Iterator]                                            |                    |
 | 280 | [Wiggle Sort] ☢                                              |                    |
 | 279 | [Perfect Squares]                                            | [C](src/279.c)     |
 | 278 | [First Bad Version]                                          | [C](src/278.c)     |
@@ -293,6 +296,9 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Move Zeroes]: https://leetcode.com/problems/move-zeroes/
+[Expression Add Operators]: https://leetcode.com/problems/expression-add-operators/
+[Zigzag Iterator]: https://leetcode.com/problems/zigzag-iterator/
 [Wiggle Sort]: https://leetcode.com/problems/wiggle-sort/
 [Perfect Squares]: https://leetcode.com/problems/perfect-squares/
 [First Bad Version]: https://leetcode.com/problems/first-bad-version/
