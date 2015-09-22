@@ -242,7 +242,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 52  | [N-Queens II]                                                | [C](src/52.c)      |
 | 51  | [N-Queens]                                                   | [C++](src/51.cpp)  |
 | 50  | [Pow(x, n)]                                                  | [C](src/50.c)      |
-| 49  | [Anagrams]                                                   |                    |
+| 49  | [Anagrams]                                                   | [C++](src/49.cpp)  |
 | 48  | [Rotate Image]                                               | [C](src/48.c)      |
 | 47  | [Permutations II]                                            |                    |
 | 46  | [Permutations]                                               | [C](src/46.c)      |
