@@ -116,7 +116,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 188 | [Best Time to Buy and Sell Stock IV]                         |                    |
 | 187 | [Repeated DNA Sequences]                                     |                    |
 | 186 | [Reverse Words in a String II] ☢                             |                    |
-| 179 | [Largest Number]                                             |                    |
+| 179 | [Largest Number]                                             | [C](src/179.c)     |
 | 174 | [Dungeon Game]                                               |                    |
 | 173 | [Binary Search Tree Iterator]                                |                    |
 | 172 | [Factorial Trailing Zeroes]                                  | [C](src/172.c)     |
