@@ -260,7 +260,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 34  | [Search for a Range]                                         | [C++](src/34.cpp)  |
 | 33  | [Search in Rotated Sorted Array]                             | [C](src/33.c)      |
 | 32  | [Longest Valid Parentheses]                                  |                    |
-| 31  | [Next Permutation]                                           |                    |
+| 31  | [Next Permutation]                                           | [C](src/31.c)      |
 | 30  | [Substring with Concatenation of All Words]                  |                    |
 | 29  | [Divide Two Integers]                                        |                    |
 | 28  | [Implement strStr()]                                         | [C](src/28.c)      |
