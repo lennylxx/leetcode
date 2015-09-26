@@ -202,7 +202,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 92  | [Reverse Linked List II]                                     | [C](src/92.c)      |
 | 91  | [Decode Ways]                                                | [C](src/91.c)      |
 | 90  | [Subsets II]                                                 | [C++](src/90.cpp)  |
-| 89  | [Gray Code]                                                  |                    |
+| 89  | [Gray Code]                                                  | [C](src/89.c)      |
 | 88  | [Merge Sorted Array]                                         | [C](src/88.c)      |
 | 87  | [Scramble String]                                            |                    |
 | 86  | [Partition List]                                             |                    |
