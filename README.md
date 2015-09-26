@@ -69,7 +69,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 241 | [Different Ways to Add Parentheses]                          |                    |
 | 240 | [Search a 2D Matrix II]                                      | [C](src/240.c)     |
 | 239 | [Sliding Window Maximum]                                     |                    |
-| 238 | [Product of Array Except Self]                               |                    |
+| 238 | [Product of Array Except Self]                               | [C](src/238.c)     |
 | 237 | [Delete Node in a Linked List]                               | [C](src/237.c)     |
 | 236 | [Lowest Common Ancestor of a Binary Tree]                    |                    |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree]             | [C](src/235.c)     |
