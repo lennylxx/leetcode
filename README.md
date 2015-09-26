@@ -269,7 +269,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 25  | [Reverse Nodes in k-Group]                                   |                    |
 | 24  | [Swap Nodes in Pairs]                                        |                    |
 | 23  | [Merge k Sorted Lists]                                       |                    |
-| 22  | [Generate Parentheses]                                       |                    |
+| 22  | [Generate Parentheses]                                       | [C++](src/21.cpp)  |
 | 21  | [Merge Two Sorted Lists]                                     | [C](src/21.c)      |
 | 20  | [Valid Parentheses]                                          | [C](src/20.c)      |
 | 19  | [Remove Nth Node From End of List]                           | [C](src/19.c)      |
