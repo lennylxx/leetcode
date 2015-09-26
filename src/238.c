@@ -7,6 +7,8 @@
  */
 
 int* productExceptSelf(int* nums, int numsSize, int* returnSize) {
+    if (nums == NULL || numsSize == 0) return NULL;
+
     int *output = (int *)malloc(numsSize * sizeof(int));
     *returnSize = numsSize;
 
@@ -15,16 +17,16 @@ int* productExceptSelf(int* nums, int numsSize, int* returnSize) {
         output[i] = 1;
     }
 
-    int factLeft = 1; /* factorial from left */
+    int prodLeft = 1; /* product from left */
     for (i = 1; i < numsSize; i++) {
-        factLeft *= nums[i - 1];
-        output[i] *= factLeft;
+        prodLeft *= nums[i - 1];
+        output[i] *= prodLeft;
     }
 
-    int factRight = 1; /* factorial from right */
+    int prodRight = 1; /* product from right */
     for (i = numsSize - 2; i >= 0; i--){
-        factRight *= nums[i + 1];
-        output[i] *= factRight;
+        prodRight *= nums[i + 1];
+        output[i] *= prodRight;
     }
 
     return output;
