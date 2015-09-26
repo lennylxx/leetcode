@@ -18,8 +18,8 @@ void moveZeroes0(int* nums, int numsSize) {
     }
 }
 
-/* Divide and conquer, O(nlogn) */
-void moveZeroes(int* nums, int numsSize) {
+/* Divide and conquer, T(n) = 2T(n/2) + O(3n) = O(nlogn) */
+void moveZeroes1(int* nums, int numsSize) {
     if (numsSize <= 1 ) return;
     if (numsSize == 2) {
         if (nums[0] == 0 && nums[1] != 0) {
@@ -30,8 +30,8 @@ void moveZeroes(int* nums, int numsSize) {
 
     int mid = numsSize / 2;
 
-    moveZeroes(nums, mid);
-    moveZeroes(nums + mid, numsSize - mid);
+    moveZeroes1(nums, mid);
+    moveZeroes1(nums + mid, numsSize - mid);
 
     int left = 0, right = numsSize - 1;
     while (nums[left] != 0) left++;
@@ -50,6 +50,21 @@ void moveZeroes(int* nums, int numsSize) {
 
     for (i = left; i <= left + (right - left) / 2; i++) {
         swap(&nums[i], &nums[right - i + left]);
+    }
+}
+
+/* fill zeroes into positions, O(n) */
+void moveZeroes(int* nums, int numsSize) {
+    int storeIndex = 0;
+    int i = 0;
+    for (i = 0; i < numsSize; i++) {
+        if (nums[i] != 0) {
+            nums[storeIndex++] = nums[i];
+        }
+    }
+
+    for (i = storeIndex; i < numsSize; i++) {
+        nums[i] = 0;
     }
 }
 
