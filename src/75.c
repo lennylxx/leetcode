@@ -36,6 +36,34 @@ void sortColors(int* nums, int numsSize) {
     }
 }
 
+/* simply fill the numbers, O(n), two-pass */
+void sortColors0(int* nums, int numsSize) {
+    int i, zero_count, one_count;
+    zero_count = 0;
+    one_count = 0;
+
+    for (i = 0; i < numsSize; i++) {
+        if (nums[i] == 0) {
+            zero_count++;
+        }
+        if (nums[i] == 1) {
+            one_count++;
+        }
+    }
+
+    for (i = 0; i < zero_count; i++) {
+        nums[i] = 0;
+    }
+
+    for (i = zero_count; i < zero_count + one_count; i++) {
+        nums[i] = 1;
+    }
+
+    for ( ; i < numsSize; i++) {
+        nums[i] = 2;
+    }
+}
+
 int main() {
     int nums[] = { 1, 2, 0, 1, 0, 2, 0, 0, 1, 0, 2, 1 };
     int size = sizeof(nums) / sizeof(nums[0]);
