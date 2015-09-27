@@ -162,7 +162,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 132 | [Palindrome Partitioning II]                                 |                    |
 | 131 | [Palindrome Partitioning]                                    |                    |
 | 130 | [Surrounded Regions]                                         |                    |
-| 129 | [Sum Root to Leaf Numbers]                                   |                    |
+| 129 | [Sum Root to Leaf Numbers]                                   | [C](src/129.c)     |
 | 128 | [Longest Consecutive Sequence]                               | [C](src/128.c)     |
 | 127 | [Word Ladder]                                                |                    |
 | 126 | [Word Ladder II]                                             |                    |
