@@ -254,7 +254,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 40  | [Combination Sum II]                                         | [C++](src/40.cpp)  |
 | 39  | [Combination Sum]                                            | [C++](src/39.cpp)  |
 | 38  | [Count and Say]                                              | [C](src/38.c)      |
-| 37  | [Sudoku Solver]                                              |                    |
+| 37  | [Sudoku Solver]                                              | [C](src/37.cpp)    |
 | 36  | [Valid Sudoku]                                               | [C](src/36.c)      |
 | 35  | [Search Insert Position]                                     | [C](src/35.c)      |
 | 34  | [Search for a Range]                                         | [C++](src/34.cpp)  |
