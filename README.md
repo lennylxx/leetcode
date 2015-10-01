@@ -205,7 +205,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 89  | [Gray Code]                                                  | [C](src/89.c)      |
 | 88  | [Merge Sorted Array]                                         | [C](src/88.c)      |
 | 87  | [Scramble String]                                            |                    |
-| 86  | [Partition List]                                             |                    |
+| 86  | [Partition List]                                             | [C](src/86.c)      |
 | 85  | [Maximal Rectangle]                                          |                    |
 | 84  | [Largest Rectangle in Histogram]                             |                    |
 | 83  | [Remove Duplicates from Sorted List]                         | [C](src/83.c)      |
