@@ -268,7 +268,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 26  | [Remove Duplicates from Sorted Array]                        | [C](src/26.c)      |
 | 25  | [Reverse Nodes in k-Group]                                   |                    |
 | 24  | [Swap Nodes in Pairs]                                        | [C](src/24.c)      |
-| 23  | [Merge k Sorted Lists]                                       |                    |
+| 23  | [Merge k Sorted Lists]                                       | [C](src/23.c)      |
 | 22  | [Generate Parentheses]                                       | [C++](src/21.cpp)  |
 | 21  | [Merge Two Sorted Lists]                                     | [C](src/21.c)      |
 | 20  | [Valid Parentheses]                                          | [C](src/20.c)      |
