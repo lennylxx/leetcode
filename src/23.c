@@ -19,7 +19,7 @@ struct ListNode {
 /* Data structures and helper function declarations. */
 struct HeapNode {
     struct ListNode *ptr;
-    int group;
+    int group; /* no use in this method */
 };
 void swap(struct HeapNode *a, struct HeapNode *b);
 int comp(struct HeapNode a, struct HeapNode b);
@@ -37,7 +37,7 @@ struct ListNode* mergeKLists(struct ListNode** lists, int listsSize) {
     int i;
     for (i = 0; i < listsSize; i++) {
         heap[i].ptr = lists[i];
-        heap[i].group = i;
+        heap[i].group = i; /* just initialize, useless */
     }
 
     heapify(heap, listsSize);
@@ -129,9 +129,9 @@ void reheap(struct HeapNode *heap, int size) {
         if (right < size && comp(heap[child], heap[right]) > 0) {
             child = right;
         }
-        if (comp(heap[parent], heap[child]) > 0) {
-            swap(&heap[parent], &heap[child]);
-        }
+        if (comp(heap[parent], heap[child]) <= 0) break;
+
+        swap(&heap[parent], &heap[child]);
         parent = child;
         child = 2 * parent + 1;
     }
