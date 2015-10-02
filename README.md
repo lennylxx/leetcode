@@ -250,7 +250,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 44  | [Wildcard Matching]                                          | [C](src/44.c)      |
 | 43  | [Multiply Strings]                                           | [C](src/43.c)      |
 | 42  | [Trapping Rain Water]                                        |                    |
-| 41  | [First Missing Positive]                                     |                    |
+| 41  | [First Missing Positive]                                     | [C](src/41.c)      |
 | 40  | [Combination Sum II]                                         | [C++](src/40.cpp)  |
 | 39  | [Combination Sum]                                            | [C++](src/39.cpp)  |
 | 38  | [Count and Say]                                              | [C](src/38.c)      |
