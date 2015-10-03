@@ -144,7 +144,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 150 | [Evaluate Reverse Polish Notation]                           | [C](src/150.c)     |
 | 149 | [Max Points on a Line]                                       |                    |
 | 148 | [Sort List]                                                  | [C](src/148.c)     |
-| 147 | [Insertion Sort List]                                        |                    |
+| 147 | [Insertion Sort List]                                        | [C](src/147.c)     |
 | 146 | [LRU Cache]                                                  | [C](src/146.c)     |
 | 145 | [Binary Tree Postorder Traversal]                            | [C](src/145.c)     |
 | 144 | [Binary Tree Preorder Traversal]                             | [C++](src/144.cpp) |
