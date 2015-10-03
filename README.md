@@ -71,7 +71,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 239 | [Sliding Window Maximum]                                     |                    |
 | 238 | [Product of Array Except Self]                               | [C](src/238.c)     |
 | 237 | [Delete Node in a Linked List]                               | [C](src/237.c)     |
-| 236 | [Lowest Common Ancestor of a Binary Tree]                    |                    |
+| 236 | [Lowest Common Ancestor of a Binary Tree]                    | [C++](src/236.cpp) |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree]             | [C](src/235.c)     |
 | 234 | [Palindrome Linked List]                                     | [C](src/234.c)     |
 | 233 | [Number of Digit One]                                        |                    |
