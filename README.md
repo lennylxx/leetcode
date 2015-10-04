@@ -236,7 +236,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 58  | [Length of Last Word]                                        | [C](src/58.c)      |
 | 57  | [Insert Interval]                                            |                    |
 | 56  | [Merge Intervals]                                            |                    |
-| 55  | [Jump Game]                                                  |                    |
+| 55  | [Jump Game]                                                  | [C](src/55.c)      |
 | 54  | [Spiral Matrix]                                              | [C](src/54.c)      |
 | 53  | [Maximum Subarray]                                           | [C](src/53.c)      |
 | 52  | [N-Queens II]                                                | [C](src/52.c)      |
