@@ -34,7 +34,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 277 | [Find the Celebrity] ☢                                       |                    |
 | 276 | [Paint Fence] ☢                                              |                    |
 | 275 | [H-Index II]                                                 |                    |
-| 274 | [H-Index]                                                    |                    |
+| 274 | [H-Index]                                                    | [C](src/274.c)     |
 | 273 | [Integer to English Words]                                   |                    |
 | 272 | [Closest Binary Search Tree Value II] ☢                      |                    |
 | 271 | [Encode and Decode Strings] ☢                                |                    |
