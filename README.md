@@ -153,7 +153,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 141 | [Linked List Cycle]                                          | [C](src/141.c)     |
 | 140 | [Word Break II]                                              |                    |
 | 139 | [Word Break]                                                 | [C++](src/139.cpp) |
-| 138 | [Copy List with Random Pointer]                              |                    |
+| 138 | [Copy List with Random Pointer]                              | [C](src/138.c)     |
 | 137 | [Single Number II]                                           |                    |
 | 136 | [Single Number]                                              | [C](src/136.c)     |
 | 135 | [Candy]                                                      |                    |
