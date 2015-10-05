@@ -25,7 +25,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
-| 290 | [Word Pattern]                                               |                    |
+| 290 | [Word Pattern]                                               | [C++](src/290.cpp) |
 | 289 | [Game of Life]                                               | [C](src/289.c)     |
 | 288 | [Unique Word Abbreviation] ☢                                 |                    |
 | 287 | [Find the Duplicate Number]                                  |                    |
