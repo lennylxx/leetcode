@@ -59,7 +59,7 @@ void gameOfLife(int** board, int boardRowSize, int boardColSize) {
 
     for (i = 0; i < boardRowSize; i++) {
         for (j = 0; j < boardColSize; j++) {
-            board[i][j] = (board[i][j] & 0x2) >> 1; /* translate result */
+            board[i][j] >>= 1; /* translate result */
         }
     }
 }
