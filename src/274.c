@@ -42,6 +42,24 @@ void quicksort(int *nums, int start, int end) {
     quicksort(nums, i + 1, end);
 }
 
+int hIndex0(int* citations, int citationsSize) {
+    if (citations == NULL || citationsSize == 0) return 0;
+    quicksort(citations, 0, citationsSize);
+
+    int hIndex = 0;
+    int i;
+    for (i = citationsSize - 1; i >= 0; i--) {
+        if (citations[i] > hIndex) {
+            hIndex++;
+        }
+        else {
+            break;
+        }
+    }
+
+    return hIndex;
+}
+
 int main() {
 
     int citations0[] = { 3, 0, 6, 1, 5 };
