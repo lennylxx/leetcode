@@ -5,7 +5,8 @@ static inline int min(int a, int b) {
     return (a < b) ? a : b;
 }
 
-/* the hIndex will first ascend and then descend
+/* from current position to the end, we can caculate an hIndex array
+   the hIndex will first ascend and then descend
    so the problem is to find the peak of the hIndex array
    we use binary search */
 
@@ -37,6 +38,23 @@ int hIndex(int* citations, int citationsSize) {
     }
 
     return h_middle;
+}
+
+int hIndex0(int* citations, int citationsSize) {
+    if (citations == NULL || citationsSize == 0) return 0;
+
+    int i = 0, j = citationsSize - 1;
+    while (i <= j) {
+        int m = i + (j - i) / 2;
+        if (citations[m] >= citationsSize - m) {
+            j = m - 1;
+        }
+        else {
+            i = m + 1;
+        }
+    }
+
+    return citationsSize - i;
 }
 
 int main() {
