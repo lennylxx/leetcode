@@ -25,9 +25,16 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 290 | [Word Pattern]                                               |                    |
+| 289 | [Game of Life]                                               | [C](src/289.c)     |
+| 288 | [Unique Word Abbreviation] ☢                                 |                    |
+| 287 | [Find the Duplicate Number]                                  |                    |
+| 286 | [Walls and Gates] ☢                                          |                    |
+| 285 | [Inorder Successor in BST] ☢                                 |                    |
+| 284 | [Peeking Iterator]                                           |                    |
 | 283 | [Move Zeroes]                                                | [C](src/283.c)     |
 | 282 | [Expression Add Operators]                                   |                    |
-| 281 | [Zigzag Iterator]                                            |                    |
+| 281 | [Zigzag Iterator] ☢                                          |                    |
 | 280 | [Wiggle Sort] ☢                                              |                    |
 | 279 | [Perfect Squares]                                            | [C](src/279.c)     |
 | 278 | [First Bad Version]                                          | [C](src/278.c)     |
@@ -296,6 +303,13 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Word Pattern]: https://leetcode.com/problems/word-pattern/
+[Game of Life]: https://leetcode.com/problems/game-of-life/
+[Unique Word Abbreviation]: https://leetcode.com/problems/unique-word-abbreviation/
+[Find the Duplicate Number]: https://leetcode.com/problems/find-the-duplicate-number/
+[Walls and Gates]: https://leetcode.com/problems/walls-and-gates/
+[Inorder Successor in BST]: https://leetcode.com/problems/inorder-successor-in-bst/
+[Peeking Iterator]: https://leetcode.com/problems/peeking-iterator/
 [Move Zeroes]: https://leetcode.com/problems/move-zeroes/
 [Expression Add Operators]: https://leetcode.com/problems/expression-add-operators/
 [Zigzag Iterator]: https://leetcode.com/problems/zigzag-iterator/
