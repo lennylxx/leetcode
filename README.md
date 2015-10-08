@@ -51,7 +51,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 267 | [Palindrome Permutation II] ☢                                |                    |
 | 266 | [Palindrome Permutation] ☢                                   |                    |
 | 265 | [Paint House II] ☢                                           |                    |
-| 264 | [Ugly Number II]                                             |                    |
+| 264 | [Ugly Number II]                                             | [C](src/264.c)     |
 | 263 | [Ugly Number]                                                | [C](src/263.c)     |
 | 261 | [Graph Valid Tree] ☢                                         |                    |
 | 260 | [Single Number III]                                          | [C](src/260.c)     |
