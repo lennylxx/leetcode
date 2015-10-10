@@ -155,7 +155,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 146 | [LRU Cache]                                                  | [C](src/146.c)     |
 | 145 | [Binary Tree Postorder Traversal]                            | [C](src/145.c)     |
 | 144 | [Binary Tree Preorder Traversal]                             | [C++](src/144.cpp) |
-| 143 | [Reorder List]                                               |                    |
+| 143 | [Reorder List]                                               | [C](src/143.c)     |
 | 142 | [Linked List Cycle II]                                       | [C](src/142.c)     |
 | 141 | [Linked List Cycle]                                          | [C](src/141.c)     |
 | 140 | [Word Break II]                                              |                    |
