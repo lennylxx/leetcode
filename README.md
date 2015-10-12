@@ -81,7 +81,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 236 | [Lowest Common Ancestor of a Binary Tree]                    | [C++](src/236.cpp) |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree]             | [C](src/235.c)     |
 | 234 | [Palindrome Linked List]                                     | [C](src/234.c)     |
-| 233 | [Number of Digit One]                                        |                    |
+| 233 | [Number of Digit One]                                        | [C](src/233.c)     |
 | 232 | [Implement Queue using Stacks]                               | [C](src/232.c)     |
 | 231 | [Power of Two]                                               | [C](src/231.c)     |
 | 230 | [Kth Smallest Element in a BST]                              | [C](src/230.c)     |
