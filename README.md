@@ -25,6 +25,8 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 292 | [Nim Game]                                                   | [C](src/292.c)     |
+| 291 | [Word Pattern II] ☢                                          |                    |
 | 290 | [Word Pattern]                                               | [C++](src/290.cpp) |
 | 289 | [Game of Life]                                               | [C](src/289.c)     |
 | 288 | [Unique Word Abbreviation] ☢                                 |                    |
@@ -303,6 +305,8 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Nim Game]: https://leetcode.com/problems/nim-game/
+[Word Pattern II]: https://leetcode.com/problems/word-pattern-ii/
 [Word Pattern]: https://leetcode.com/problems/word-pattern/
 [Game of Life]: https://leetcode.com/problems/game-of-life/
 [Unique Word Abbreviation]: https://leetcode.com/problems/unique-word-abbreviation/
