@@ -240,7 +240,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 63  | [Unique Paths II]                                            | [C](src/63.c)      |
 | 62  | [Unique Paths]                                               | [C](src/62.c)      |
 | 61  | [Rotate List]                                                | [C](src/61.c)      |
-| 60  | [Permutation Sequence]                                       | [C](src/60.cpp)    |
+| 60  | [Permutation Sequence]                                       | [C++](src/60.cpp)    |
 | 59  | [Spiral Matrix II]                                           | [C](src/59.c)      |
 | 58  | [Length of Last Word]                                        | [C](src/58.c)      |
 | 57  | [Insert Interval]                                            |                    |
@@ -278,14 +278,14 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 25  | [Reverse Nodes in k-Group]                                   |                    |
 | 24  | [Swap Nodes in Pairs]                                        | [C](src/24.c)      |
 | 23  | [Merge k Sorted Lists]                                       | [C](src/23.c)      |
-| 22  | [Generate Parentheses]                                       | [C++](src/21.cpp)  |
+| 22  | [Generate Parentheses]                                       | [C++](src/222.cpp)  |
 | 21  | [Merge Two Sorted Lists]                                     | [C](src/21.c)      |
 | 20  | [Valid Parentheses]                                          | [C](src/20.c)      |
 | 19  | [Remove Nth Node From End of List]                           | [C](src/19.c)      |
 | 18  | [4Sum]                                                       |                    |
 | 17  | [Letter Combinations of a Phone Number]                      | [C++](src/17.cpp)  |
 | 16  | [3Sum Closest]                                               |                    |
-| 15  | [3Sum]                                                       | [C++](src/15/cpp)  |
+| 15  | [3Sum]                                                       | [C++](src/15.cpp)  |
 | 14  | [Longest Common Prefix]                                      | [C](src/14.c)      |
 | 13  | [Roman to Integer]                                           | [C](src/13.c)      |
 | 12  | [Integer to Roman]                                           | [C](src/12.c)      |
@@ -514,7 +514,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [Sqrt(x)]: https://leetcode.com/problems/sqrtx/
 [Text Justification]: https://leetcode.com/problems/text-justification/
 [Add Binary]: https://leetcode.com/problems/add-binary/
-[Plus One]: https://leetcode.com/problems/add-binary/
+[Plus One]: https://leetcode.com/problems/plus-one/
 [Valid Number]: https://leetcode.com/problems/valid-number/
 [Minimum Path Sum]: https://leetcode.com/problems/minimum-path-sum/
 [Unique Paths II]: https://leetcode.com/problems/unique-paths-ii/
