@@ -6,7 +6,7 @@ int countDigitOne(int n) {
     if (n >= 1 && n <= 9) return 1;
 
     int x = n; /* first digit of n */
-    int v = 1; /* round value of n that all digits are zero except first digit */
+    int v = 1; /* first dight's weight */
     while (x >= 10) {
         x /= 10;
         v *= 10;
