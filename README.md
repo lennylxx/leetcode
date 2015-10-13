@@ -240,7 +240,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 63  | [Unique Paths II]                                            | [C](src/63.c)      |
 | 62  | [Unique Paths]                                               | [C](src/62.c)      |
 | 61  | [Rotate List]                                                | [C](src/61.c)      |
-| 60  | [Permutation Sequence]                                       | [C++](src/60.cpp)    |
+| 60  | [Permutation Sequence]                                       | [C++](src/60.cpp)  |
 | 59  | [Spiral Matrix II]                                           | [C](src/59.c)      |
 | 58  | [Length of Last Word]                                        | [C](src/58.c)      |
 | 57  | [Insert Interval]                                            |                    |
@@ -278,7 +278,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 25  | [Reverse Nodes in k-Group]                                   |                    |
 | 24  | [Swap Nodes in Pairs]                                        | [C](src/24.c)      |
 | 23  | [Merge k Sorted Lists]                                       | [C](src/23.c)      |
-| 22  | [Generate Parentheses]                                       | [C++](src/222.cpp)  |
+| 22  | [Generate Parentheses]                                       | [C++](src/22.cpp)  |
 | 21  | [Merge Two Sorted Lists]                                     | [C](src/21.c)      |
 | 20  | [Valid Parentheses]                                          | [C](src/20.c)      |
 | 19  | [Remove Nth Node From End of List]                           | [C](src/19.c)      |
