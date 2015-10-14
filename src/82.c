@@ -19,20 +19,12 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
     while (p && q) {
         if (p->val == q->val) {
             pre->next = q->next;
-            p = p->next;
-            q = q->next;
         }
-        else {
-            if (pre->next == q) {
-                p = p->next;
-                q = q->next;
-            }
-            else {
-                pre = pre->next;
-                p = p->next;
-                q = q->next;
-            }
+        else if (pre->next != q) {
+            pre = pre->next;
         }
+        p = p->next;
+        q = q->next;
     }
 
     struct ListNode *new_head = dummy->next;
