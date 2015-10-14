@@ -218,7 +218,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 85  | [Maximal Rectangle]                                          |                    |
 | 84  | [Largest Rectangle in Histogram]                             |                    |
 | 83  | [Remove Duplicates from Sorted List]                         | [C](src/83.c)      |
-| 82  | [Remove Duplicates from Sorted List II]                      |                    |
+| 82  | [Remove Duplicates from Sorted List II]                      | [C](src/82.c)      |
 | 81  | [Search in Rotated Sorted Array II]                          | [C](src/81.c)      |
 | 80  | [Remove Duplicates from Sorted Array II]                     | [C](src/80.c)      |
 | 79  | [Word Search]                                                | [C](src/79.c)      |
