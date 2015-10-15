@@ -127,7 +127,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 186 | [Reverse Words in a String II] ☢                             |                    |
 | 179 | [Largest Number]                                             | [C](src/179.c)     |
 | 174 | [Dungeon Game]                                               |                    |
-| 173 | [Binary Search Tree Iterator]                                |                    |
+| 173 | [Binary Search Tree Iterator]                                | [C++](src/173.cpp) |
 | 172 | [Factorial Trailing Zeroes]                                  | [C](src/172.c)     |
 | 171 | [Excel Sheet Column Number]                                  | [C](src/171.c)     |
 | 170 | [Two Sum III - Data structure design] ☢                      |                    |
