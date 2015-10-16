@@ -138,7 +138,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 165 | [Compare Version Numbers]                                    | [C](src/165.c)     |
 | 164 | [Maximum Gap]                                                | [C](src/164.c)     |
 | 163 | [Missing Ranges] ☢                                           |                    |
-| 162 | [Find Peak Element]                                          |                    |
+| 162 | [Find Peak Element]                                          | [C](src/162.c)     |
 | 161 | [One Edit Distance] ☢                                        |                    |
 | 160 | [Intersection of Two Linked Lists]                           | [C](src/160.c)     |
 | 159 | [Longest Substring with At Most Two Distinct Characters] ☢   |                    |
