@@ -166,7 +166,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 137 | [Single Number II]                                           |                    |
 | 136 | [Single Number]                                              | [C](src/136.c)     |
 | 135 | [Candy]                                                      |                    |
-| 134 | [Gas Station]                                                |                    |
+| 134 | [Gas Station]                                                | [C](src/134.c)     |
 | 133 | [Clone Graph]                                                | [C++](src/133.cpp) |
 | 132 | [Palindrome Partitioning II]                                 |                    |
 | 131 | [Palindrome Partitioning]                                    |                    |
