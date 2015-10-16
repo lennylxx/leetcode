@@ -169,7 +169,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 134 | [Gas Station]                                                | [C](src/134.c)     |
 | 133 | [Clone Graph]                                                | [C++](src/133.cpp) |
 | 132 | [Palindrome Partitioning II]                                 |                    |
-| 131 | [Palindrome Partitioning]                                    |                    |
+| 131 | [Palindrome Partitioning]                                    | [C++](src/131.cpp) |
 | 130 | [Surrounded Regions]                                         |                    |
 | 129 | [Sum Root to Leaf Numbers]                                   | [C](src/129.c)     |
 | 128 | [Longest Consecutive Sequence]                               | [C](src/128.c)     |
