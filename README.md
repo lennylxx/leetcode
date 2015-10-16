@@ -168,7 +168,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 135 | [Candy]                                                      |                    |
 | 134 | [Gas Station]                                                | [C](src/134.c)     |
 | 133 | [Clone Graph]                                                | [C++](src/133.cpp) |
-| 132 | [Palindrome Partitioning II]                                 |                    |
+| 132 | [Palindrome Partitioning II]                                 | [C++](src/132.cpp) |
 | 131 | [Palindrome Partitioning]                                    | [C++](src/131.cpp) |
 | 130 | [Surrounded Regions]                                         |                    |
 | 129 | [Sum Root to Leaf Numbers]                                   | [C](src/129.c)     |
