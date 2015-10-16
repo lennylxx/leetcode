@@ -107,7 +107,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 212 | [Word Search II]                                             | [C](src/212.c)     |
 | 211 | [Add and Search Word - Data structure design]                | [C](src/211.c)     |
 | 210 | [Course Schedule II]                                         |                    |
-| 209 | [Minimum Size Subarray Sum]                                  |                    |
+| 209 | [Minimum Size Subarray Sum]                                  | [C](src/209.c)     |
 | 208 | [Implement Trie (Prefix Tree)]                               | [C](src/208.c)     |
 | 207 | [Course Schedule]                                            |                    |
 | 206 | [Reverse Linked List]                                        | [C](src/206.c)     |
