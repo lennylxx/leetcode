@@ -295,7 +295,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 8   | [String to Integer (atoi)]                                   | [C](src/8.c)       |
 | 7   | [Reverse Integer]                                            | [C](src/7.c)       |
 | 6   | [ZigZag Conversion]                                          | [C](src/6.c)       |
-| 5   | [Longest Palindromic Substring]                              |                    |
+| 5   | [Longest Palindromic Substring]                              | [C++](src/5.cpp)   |
 | 4   | [Median of Two Sorted Arrays]                                |                    |
 | 3   | [Longest Substring Without Repeating Characters]             |                    |
 | 2   | [Add Two Numbers]                                            | [C](src/2.c)       |
