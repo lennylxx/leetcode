@@ -33,7 +33,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 287 | [Find the Duplicate Number]                                  |                    |
 | 286 | [Walls and Gates] ☢                                          |                    |
 | 285 | [Inorder Successor in BST] ☢                                 |                    |
-| 284 | [Peeking Iterator]                                           |                    |
+| 284 | [Peeking Iterator]                                           | [C++](src/284.cpp) |
 | 283 | [Move Zeroes]                                                | [C](src/283.c)     |
 | 282 | [Expression Add Operators]                                   |                    |
 | 281 | [Zigzag Iterator] ☢                                          |                    |
