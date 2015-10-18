@@ -173,7 +173,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 130 | [Surrounded Regions]                                         |                    |
 | 129 | [Sum Root to Leaf Numbers]                                   | [C](src/129.c)     |
 | 128 | [Longest Consecutive Sequence]                               | [C](src/128.c)     |
-| 127 | [Word Ladder]                                                |                    |
+| 127 | [Word Ladder]                                                | [C++](src/127.cpp) |
 | 126 | [Word Ladder II]                                             |                    |
 | 125 | [Valid Palindrome]                                           | [C](src/125.c)     |
 | 124 | [Binary Tree Maximum Path Sum]                               |                    |
