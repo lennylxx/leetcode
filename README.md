@@ -275,7 +275,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 28  | [Implement strStr()]                                         | [C](src/28.c)      |
 | 27  | [Remove Element]                                             | [C](src/27.c)      |
 | 26  | [Remove Duplicates from Sorted Array]                        | [C](src/26.c)      |
-| 25  | [Reverse Nodes in k-Group]                                   |                    |
+| 25  | [Reverse Nodes in k-Group]                                   | [C](src/25.c)      |
 | 24  | [Swap Nodes in Pairs]                                        | [C](src/24.c)      |
 | 23  | [Merge k Sorted Lists]                                       | [C](src/23.c)      |
 | 22  | [Generate Parentheses]                                       | [C++](src/22.cpp)  |
