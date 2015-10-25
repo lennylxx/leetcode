@@ -25,6 +25,10 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 296 | [Best Meeting Point] ☢                                       |                    |
+| 295 | [Find Median from Data Stream]                               | [C++](src/295.cpp) |
+| 294 | [Flip Game II] ☢                                             |                    |
+| 293 | [Flip Game] ☢                                                |                    |
 | 292 | [Nim Game]                                                   | [C](src/292.c)     |
 | 291 | [Word Pattern II] ☢                                          |                    |
 | 290 | [Word Pattern]                                               | [C++](src/290.cpp) |
@@ -305,6 +309,10 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Best Meeting Point]: https://leetcode.com/problems/best-meeting-point/
+[Find Median from Data Stream]: https://leetcode.com/problems/find-median-from-data-stream/
+[Flip Game II]: https://leetcode.com/problems/flip-game-ii/
+[Flip Game]: https://leetcode.com/problems/flip-game/
 [Nim Game]: https://leetcode.com/problems/nim-game/
 [Word Pattern II]: https://leetcode.com/problems/word-pattern-ii/
 [Word Pattern]: https://leetcode.com/problems/word-pattern/
