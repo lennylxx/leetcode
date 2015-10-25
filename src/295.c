@@ -19,15 +19,15 @@ void swap(int *a, int *b) {
 
 void addHeap(int **heap, int *size, int *capacity, int data) {
     if (*size == *capacity) {
-        int new_capacity = (*capacity) * 2; /* resize */
-        int *newHeap = (int *)malloc(new_capacity * sizeof(int));
+        int newCapacity = (*capacity) * 2; /* resize */
+        int *newHeap = (int *)malloc(newCapacity * sizeof(int));
         for (int i = 0; i < *capacity; i++) {
             newHeap[i] = (*heap)[i];
         }
         if (*heap)
             free(*heap);
         *heap = newHeap;
-        *capacity = new_capacity;
+        *capacity = newCapacity;
     }
     (*heap)[*size] = data;
     (*size)++;
