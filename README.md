@@ -26,7 +26,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
 | 296 | [Best Meeting Point] ☢                                       |                    |
-| 295 | [Find Median from Data Stream]                               | [C++](src/295.cpp) |
+| 295 | [Find Median from Data Stream]                               | [C](src/295.c)     |
 | 294 | [Flip Game II] ☢                                             |                    |
 | 293 | [Flip Game] ☢                                                |                    |
 | 292 | [Nim Game]                                                   | [C](src/292.c)     |
