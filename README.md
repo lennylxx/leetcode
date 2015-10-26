@@ -25,6 +25,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 297 | [Serialize and Deserialize Binary Tree]                      | [C++](src/297.cpp) |
 | 296 | [Best Meeting Point] ☢                                       |                    |
 | 295 | [Find Median from Data Stream]                               | [C](src/295.c)     |
 | 294 | [Flip Game II] ☢                                             |                    |
@@ -309,6 +310,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Serialize and Deserialize Binary Tree]: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 [Best Meeting Point]: https://leetcode.com/problems/best-meeting-point/
 [Find Median from Data Stream]: https://leetcode.com/problems/find-median-from-data-stream/
 [Flip Game II]: https://leetcode.com/problems/flip-game-ii/
