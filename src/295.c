@@ -8,7 +8,7 @@ struct MedianFinder {
     int minHeapCapacity;
     int maxHeapSize;
     int minHeapSize;
-    double medium;
+    double median;
 };
 
 void swap(int *a, int *b) {
@@ -91,7 +91,7 @@ struct MedianFinder* MedianFinderCreate() {
     mf->maxHeap[0] = mf->minHeap[0] = 0;
     mf->minHeapSize = mf->maxHeapSize = 0;
     mf->minHeapCapacity = mf->maxHeapCapacity = 1;
-    mf->medium = 0;
+    mf->median = 0;
     return mf;
 }
 
@@ -100,15 +100,15 @@ void addNum(struct MedianFinder* mf, int num) {
     if (mf == NULL) return;
 
     if (mf->maxHeapSize == mf->minHeapSize) {
-        if (num > mf->medium) {
+        if (num > mf->median) {
             addHeap(&mf->minHeap, &mf->minHeapSize, &mf->minHeapCapacity, num);
             siftUpMin(mf->minHeap, mf->minHeapSize);
-            mf->medium = mf->minHeap[0];
+            mf->median = mf->minHeap[0];
         }
         else {
             addHeap(&mf->maxHeap, &mf->maxHeapSize, &mf->maxHeapCapacity, num);
             siftUpMax(mf->maxHeap, mf->maxHeapSize);
-            mf->medium = mf->maxHeap[0];
+            mf->median = mf->maxHeap[0];
         }
     }
     else {
@@ -134,14 +134,14 @@ void addNum(struct MedianFinder* mf, int num) {
                 siftDownMax(mf->maxHeap, mf->maxHeapSize);
             }
         }
-        mf->medium = mf->maxHeap[0] + (mf->minHeap[0] - mf->maxHeap[0]) / 2.0;
+        mf->median = mf->maxHeap[0] + (mf->minHeap[0] - mf->maxHeap[0]) / 2.0;
     }
 }
 
 /** find the median of current data stream */
 double findMedian(struct MedianFinder* mf) {
     if (mf == NULL) return 0;
-    return mf->medium;
+    return mf->median;
 }
 
 /** Deallocates memory previously allocated for the data structure. */
