@@ -25,6 +25,8 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 299 | [Bulls and Cows]                                             | [C](src/299.c)     |
+| 298 | [Binary Tree Longest Consecutive Sequence] ☢                 |                    |
 | 297 | [Serialize and Deserialize Binary Tree]                      | [C++](src/297.cpp) |
 | 296 | [Best Meeting Point] ☢                                       |                    |
 | 295 | [Find Median from Data Stream]                               | [C](src/295.c)     |
@@ -310,6 +312,8 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Bulls and Cows]: https://leetcode.com/problems/bulls-and-cows/
+[Binary Tree Longest Consecutive Sequence]: https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 [Serialize and Deserialize Binary Tree]: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 [Best Meeting Point]: https://leetcode.com/problems/best-meeting-point/
 [Find Median from Data Stream]: https://leetcode.com/problems/find-median-from-data-stream/
