@@ -4,7 +4,8 @@
 
 using namespace std;
 
-class Solution {
+// 108 ms
+class Solution0 {
 public:
     struct Trace {
         int i;
@@ -82,7 +83,7 @@ public:
                     }
                     // can't find a right number, backtrack
                     // set back the flag to false
-                    // be aware to set the previout number, not the current
+                    // be aware to set the previous number, not the current
                     if (count <= 0) return;
                     Trace t = ans[count - 1];
                     rowFlag[t.i][t.s] = false;
@@ -92,6 +93,71 @@ public:
                     return;
                 }
             }
+        }
+    }
+};
+
+// 36 ms
+class Solution {
+public:
+    void solveSudoku(vector<vector<char>>& board) {
+        vector<vector<bool>> rowFlag(10, vector<bool>(10, false));
+        vector<vector<bool>> colFlag(10, vector<bool>(10, false));
+        vector<vector<bool>> boxFlag(10, vector<bool>(10, false));
+        int i, j;
+        for (i = 0; i < 9; i++) {
+            for (j = 0; j < 9; j++) {
+                if (board[i][j] != '.') {
+                    int k = board[i][j] - '1';
+                    rowFlag[i][k] = true;
+                    colFlag[j][k] = true;
+                    boxFlag[(i / 3) * 3 + j / 3][k] = true;
+                }
+            }
+        }
+
+        bool found = false;
+        placeNumber(board, found, 0, rowFlag, colFlag, boxFlag);
+    }
+
+    bool placeNumber(vector<vector<char>>& board, bool &found,
+                     int depth,
+                     vector<vector<bool>> &rowFlag,
+                     vector<vector<bool>> &colFlag, vector<vector<bool>> &boxFlag)
+    {
+        // suppose we have only one solution, if we found one, no need to continue
+        if (found) return true;
+
+        // found one solution! copy answers to the board
+        if (depth == 81) {
+            found = true;
+            return true;
+        }
+
+        int i, j;
+        i = depth / 9; j = depth % 9;
+
+        if (board[i][j] != '.') {
+            return placeNumber(board, found, depth + 1, rowFlag, colFlag, boxFlag);
+        }
+        else {
+            for (int s = 0; s < 9; s++) {
+                // if it's valid, set flag and place another number
+                if (!rowFlag[i][s] && !colFlag[j][s] && !boxFlag[(i / 3) * 3 + j / 3][s]) {
+                    // try to place a number
+                    board[i][j] = s + '1';
+                    rowFlag[i][s] = true;
+                    colFlag[j][s] = true;
+                    boxFlag[(i / 3) * 3 + j / 3][s] = true;
+                    if (placeNumber(board, found, depth + 1, rowFlag, colFlag, boxFlag)) return true;
+                    // backtrack
+                    rowFlag[i][s] = false;
+                    colFlag[j][s] = false;
+                    boxFlag[(i / 3) * 3 + j / 3][s] = false;
+                    board[i][j] = '.';
+                }
+            }
+            return false;
         }
     }
 };
