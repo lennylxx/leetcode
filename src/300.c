@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <assert.h>
 
-int lengthOfLIS(int* nums, int numsSize) {
+/* Dynamic Programming, O(n*n) */
+int lengthOfLIS0(int* nums, int numsSize) {
     if (nums == NULL || numsSize == 0) return 0;
     int *dp = (int *)malloc(numsSize * sizeof(int));
     int i, j;
@@ -17,7 +18,37 @@ int lengthOfLIS(int* nums, int numsSize) {
         if (v > max)
             max = v;
     }
+    free(dp);
     return max;
+}
+
+/* Trace the LIS using an array and use binary search, O(nlogn) */
+int lengthOfLIS(int* nums, int numsSize) {
+    if (nums == NULL || numsSize == 0) return 0;
+    int *lis = (int *)malloc(numsSize * sizeof(int));
+    lis[0] = nums[0];
+    int len = 1;
+    int i;
+    for (i = 1; i < numsSize; i++) {
+        if (nums[i] > lis[len - 1]) {
+            lis[len++] = nums[i];
+        }
+        else {
+            int l = 0, r = len - 1;
+            while (l < r) {
+                int m = l + (r - l) / 2;
+                if (lis[m] >= nums[i]) {
+                    r = m;
+                }
+                else {
+                    l = m + 1;
+                }
+            }
+            lis[l] = nums[i];
+        }
+    }
+    free(lis);
+    return len;
 }
 
 int main() {
