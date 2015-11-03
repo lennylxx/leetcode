@@ -25,6 +25,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 300 | [Longest Increasing Subsequence]                             | [C](src/300.c)     |
 | 299 | [Bulls and Cows]                                             | [C](src/299.c)     |
 | 298 | [Binary Tree Longest Consecutive Sequence] ☢                 |                    |
 | 297 | [Serialize and Deserialize Binary Tree]                      | [C++](src/297.cpp) |
@@ -270,7 +271,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 40  | [Combination Sum II]                                         | [C++](src/40.cpp)  |
 | 39  | [Combination Sum]                                            | [C++](src/39.cpp)  |
 | 38  | [Count and Say]                                              | [C](src/38.c)      |
-| 37  | [Sudoku Solver]                                              | [C](src/37.cpp)    |
+| 37  | [Sudoku Solver]                                              | [C++](src/37.cpp)  |
 | 36  | [Valid Sudoku]                                               | [C](src/36.c)      |
 | 35  | [Search Insert Position]                                     | [C](src/35.c)      |
 | 34  | [Search for a Range]                                         | [C++](src/34.cpp)  |
@@ -312,6 +313,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Longest Increasing Subsequence]: https://leetcode.com/problems/longest-increasing-subsequence/
 [Bulls and Cows]: https://leetcode.com/problems/bulls-and-cows/
 [Binary Tree Longest Consecutive Sequence]: https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
 [Serialize and Deserialize Binary Tree]: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
