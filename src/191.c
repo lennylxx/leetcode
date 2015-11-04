@@ -35,7 +35,22 @@ int hammingWeight_2(uint32_t n) {
         ret ++;
     }
     return ret;
-} 
+}
+
+/*****************************
+ Code to count 0 bits
+
+    while (n != 0xFFFFFFFF) {
+       n = n | (n + 1);
+       ret++;
+    }
+
+Or,
+
+    n = ~n;
+    count1Bits(n);
+
+******************************/
 
 /* 5 steps */
 int hammingWeight_3(uint32_t n) {
