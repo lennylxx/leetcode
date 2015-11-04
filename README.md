@@ -155,7 +155,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 156 | [Binary Tree Upside Down] ☢                                  |                    |
 | 155 | [Min Stack]                                                  | [C](src/155.c)     |
 | 154 | [Find Minimum in Rotated Sorted Array II]                    |                    |
-| 153 | [Find Minimum in Rotated Sorted Array]                       |                    |
+| 153 | [Find Minimum in Rotated Sorted Array]                       | [C](src/153.c)     |
 | 152 | [Maximum Product Subarray]                                   | [C](src/152.c)     |
 | 151 | [Reverse Words in a String]                                  | [C](src/151.c)     |
 | 150 | [Evaluate Reverse Polish Notation]                           | [C](src/150.c)     |
