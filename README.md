@@ -111,7 +111,7 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 | 216 | [Combination Sum III]                                        | [C++](src/216.cpp) |
 | 215 | [Kth Largest Element in an Array]                            | [C](src/215.c)     |
 | 214 | [Shortest Palindrome]                                        |                    |
-| 213 | [House Robber II]                                            |                    |
+| 213 | [House Robber II]                                            | [C](src/213.c)     |
 | 212 | [Word Search II]                                             | [C](src/212.c)     |
 | 211 | [Add and Search Word - Data structure design]                | [C](src/211.c)     |
 | 210 | [Course Schedule II]                                         |                    |
