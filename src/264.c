@@ -9,7 +9,6 @@ int nthUglyNumber(int n) {
     int k = 1; /* store index */
 
     while (k < n) {
-        int *index = NULL;
         int min = 0;
         if (nums[i2] * 2 <= nums[i3] * 3) {
             min = nums[i2] * 2;
@@ -39,7 +38,7 @@ int main() {
 
     int n = 10;
     int i;
-    for (i = 1; i <= 10; i++) {
+    for (i = 1; i <= n; i++) {
         printf("%d ", nthUglyNumber(i));
     }
     printf("\n");

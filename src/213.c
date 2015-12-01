@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <assert.h>
 
 #define max(a,b) ((a)>(b)?(a):(b))
 int robNoCircle(int num[], int n) {

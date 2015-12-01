@@ -1,6 +1,6 @@
 CC = gcc
 CXX = g++
-CFLAGS = -std=c99 -Wall
+CFLAGS = -std=c99 -Wall -lm
 CXXFLAGS = -std=c++11 -Wall
 
 C_SRCS = $(wildcard src/*.c)

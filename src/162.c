@@ -24,8 +24,8 @@ int findPeakElement(int* nums, int numsSize) {
 
 int main() {
     int nums0[] = { 1, 2, 3, 1 };
-    int nums0[] = { 1, 2 };
-    assert(findPeakElement(sizeof(nums0) / sizeof(nums0[0])) == 2);
-    assert(findPeakElement(sizeof(nums1) / sizeof(nums1[0])) == 1);
+    int nums1[] = { 1, 2 };
+    assert(findPeakElement(nums0, sizeof(nums0) / sizeof(nums0[0])) == 2);
+    assert(findPeakElement(nums1, sizeof(nums1) / sizeof(nums1[0])) == 1);
     return 0;
 }

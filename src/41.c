@@ -3,7 +3,6 @@
 
 int firstMissingPositive(int* nums, int numsSize) {
     int i;
-    int flag = 0;
     for (i = 0; i < numsSize; i++) {
         while (nums[i] > 0 && nums[i] < numsSize && nums[nums[i] - 1] != nums[i]) {
             int t = nums[i];

@@ -34,7 +34,7 @@ int hash(int key) {
     return index > 0 ? index : (-index);
 }
 
-struct node_t* findAndAdjust(key) {
+struct node_t* findAndAdjust(int key) {
     int index = hash(key);
     struct node_t *p = m_lru.hash_table[index];
     while (p) {
