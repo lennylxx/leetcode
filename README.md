@@ -25,6 +25,21 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 
 |     | Problem                                                      | Solution           |
 | --- | ------------------------------------------------------------ | ------------------ |
+| 315 | [Count of Smaller Numbers After Self]                        |                    |
+| 314 | [Binary Tree Vertical Order Traversal] ☢                     |                    |
+| 313 | [Super Ugly Number]                                          | [C](src/313.c)     |
+| 312 | [Burst Balloons]                                             |                    |
+| 311 | [Sparse Matrix Multiplication] ☢                             |                    |
+| 310 | [Minimum Height Trees]                                       |                    |
+| 309 | [Best Time to Buy and Sell Stock with Cooldown]              |                    |
+| 308 | [Range Sum Query 2D - Mutable] ☢                             |                    |
+| 307 | [Range Sum Query - Mutable]                                  |                    |
+| 306 | [Additive Number]                                            |                    |
+| 305 | [Number of Islands II] ☢                                     |                    |
+| 304 | [Range Sum Query 2D - Immutable]                             |                    |
+| 303 | [Range Sum Query - Immutable]                                |                    |
+| 302 | [Smallest Rectangle Enclosing Black Pixels] ☢                |                    |
+| 301 | [Remove Invalid Parentheses]                                 |                    |
 | 300 | [Longest Increasing Subsequence]                             | [C](src/300.c)     |
 | 299 | [Bulls and Cows]                                             | [C](src/299.c)     |
 | 298 | [Binary Tree Longest Consecutive Sequence] ☢                 |                    |
@@ -313,6 +328,21 @@ The `☢` means that you need to have a LeetCode Premium Subscription.
 [LeetCode algorithm problems]: https://leetcode.com/problemset/algorithms/
 
 
+[Count of Smaller Numbers After Self]: https://leetcode.com/problems/count-of-smaller-numbers-after-self/
+[Binary Tree Vertical Order Traversal]: https://leetcode.com/problems/binary-tree-vertical-order-traversal/
+[Super Ugly Number]: https://leetcode.com/problems/super-ugly-number/
+[Burst Balloons]: https://leetcode.com/problems/burst-balloons/
+[Sparse Matrix Multiplication]: https://leetcode.com/problems/sparse-matrix-multiplication/
+[Minimum Height Trees]: https://leetcode.com/problems/minimum-height-trees/
+[Best Time to Buy and Sell Stock with Cooldown]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+[Range Sum Query 2D - Mutable]: https://leetcode.com/problems/range-sum-query-2d-mutable/
+[Range Sum Query - Mutable]: https://leetcode.com/problems/range-sum-query-mutable/
+[Additive Number]: https://leetcode.com/problems/additive-number/
+[Number of Islands II]: https://leetcode.com/problems/number-of-islands-ii/
+[Range Sum Query 2D - Immutable]: https://leetcode.com/problems/range-sum-query-2d-immutable/
+[Range Sum Query - Immutable]: https://leetcode.com/problems/range-sum-query-immutable/
+[Smallest Rectangle Enclosing Black Pixels]: https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/
+[Remove Invalid Parentheses]: https://leetcode.com/problems/remove-invalid-parentheses/
 [Longest Increasing Subsequence]: https://leetcode.com/problems/longest-increasing-subsequence/
 [Bulls and Cows]: https://leetcode.com/problems/bulls-and-cows/
 [Binary Tree Longest Consecutive Sequence]: https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
