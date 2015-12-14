@@ -3,7 +3,7 @@
 #include <string.h>
 #include <assert.h>
 
-#define min(a,b) (a)<(b)?(a):(b)
+#define min(a,b) ((a)<(b)?(a):(b))
 char* getHint(char* secret, char* guess) {
     char hashs[10] = { 0 };
     char hashg[10] = { 0 };
