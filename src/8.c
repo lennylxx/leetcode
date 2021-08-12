@@ -19,7 +19,10 @@ int myAtoi(char *str) {
 
     while (*p >= '0' && *p <= '9') {
         ret = ret * 10 + (*p - '0');
-        if (ret - 1 > INT32_MAX) ret = (int64_t)INT32_MAX + 1;
+        if (ret - 1 > INT32_MAX) {
+            ret = (int64_t)INT32_MAX + 1;
+            break; //As we find that the integer is greater than INT32_MAX so no need to go ahead
+        }
         //printf("%ld\n", ret);
         p++;
     }
